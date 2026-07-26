@@ -14091,9 +14091,14 @@
 			"endDate": "2026-06-15"
 		},
 		{
-			"name": "June 16, 2026 to July 27, 2026",
+			"name": "June 16, 2026 to July 26, 2026",
 			"startDate": "2026-06-16",
-			"endDate": "2026-07-27"
+			"endDate": "2026-07-26"
+		},
+		{
+			"name": "July 27, 2026 to Aug 31, 2026",
+			"startDate": "2026-07-27",
+			"endDate": "2026-08-31"
 		}
 	],
 
