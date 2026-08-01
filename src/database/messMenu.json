@@ -5548,7 +5548,7 @@
 									"Lunch": [
 										"Dal Lasooni (100gm)",
 										"Mutter Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese Fry Peas (100gm)",
 										"*Egg Briyani*",
 										"Raitha",
 										"Phulka",
@@ -5664,7 +5664,7 @@
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Palak Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese Fry Peas (100gm)",
 										"*Chicken Briyani*",
 										"Raitha",
 										"Phulka",
@@ -5753,7 +5753,7 @@
 										"Arhar Dal (100gm)",
 										"*Chettinad Chicken (150gm)*",
 										"Bhindi Moor Kulambu (150gm)",
-										"Cheese Fri Onion Rings (100gm)",
+										"Cheese Fry Onion Rings (100gm)",
 										"*Egg Briyani / Veg Briyani*",
 										"Raitha",
 										"Phulka",
@@ -5960,7 +5960,7 @@
 									"Lunch": [
 										"Dal Lasooni (100gm)",
 										"Mutter Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese Fry Peas (100gm)",
 										"*Egg Briyani*",
 										"Raitha",
 										"Phulka",
@@ -6076,7 +6076,7 @@
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Palak Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese Fry Peas (100gm)",
 										"*Chicken Briyani*",
 										"Raitha",
 										"Phulka",
@@ -6165,7 +6165,7 @@
 										"Arhar Dal (100gm)",
 										"*Chettinad Chicken (150gm)*",
 										"Bhindi Moor Kulambu (150gm)",
-										"Cheese Fri Onion Rings (100gm)",
+										"Cheese Fry Onion Rings (100gm)",
 										"*Egg Briyani / Veg Briyani*",
 										"Raitha",
 										"Phulka",
@@ -6380,7 +6380,7 @@
 									"Lunch": [
 										"Dal Lasooni (100gm)",
 										"Mutter Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese Fry Peas (100gm)",
 										"Veg Biryani",
 										"Raitha",
 										"Phulka",
@@ -6496,7 +6496,7 @@
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Palak Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese Fry Peas (100gm)",
 										"Paneer Veg Biryani",
 										"Raitha",
 										"Phulka",
@@ -6585,7 +6585,7 @@
 										"Arhar Dal (100gm)",
 										"Achari Paneer (150gm)",
 										"Bhindi Moor Kulambu (150gm)",
-										"Cheese Fri Onion Rings (100gm)",
+										"Cheese Fry Onion Rings (100gm)",
 										"Veg Biryani",
 										"Raitha",
 										"Phulka",
@@ -6792,7 +6792,7 @@
 									"Lunch": [
 										"Dal Lasooni (100gm)",
 										"Mutter Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese Fry Peas (100gm)",
 										"Veg Biryani",
 										"Raitha",
 										"Phulka",
@@ -6908,7 +6908,7 @@
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Palak Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese Fry Peas (100gm)",
 										"Paneer Veg Biryani",
 										"Raitha",
 										"Phulka",
@@ -6997,7 +6997,7 @@
 										"Arhar Dal (100gm)",
 										"Achari Paneer (150gm)",
 										"Bhindi Moor Kulambu (150gm)",
-										"Cheese Fri Onion Rings (100gm)",
+										"Cheese Fry Onion Rings (100gm)",
 										"Veg Biryani",
 										"Raitha",
 										"Phulka",
@@ -8824,8 +8824,9 @@
 									"Breakfast": [
 										"Mango Jam",
 										"Boiled Chole",
-										"Omelette/Oats",
+										"*Omelette*/Oats+*Chocos*",
 										"Poha",
+										"Jalebi",
 										"Tamarind Chutney"
 									],
 									"Lunch": [
@@ -8841,7 +8842,7 @@
 										"Rice",
 										"Phulka",
 										"Chana dal",
-										"Malai Kofta / Raw banana kofta",
+										"Malai Kofta/Raw banana kofta",
 										"Boondi"
 									]
 								},
@@ -8849,11 +8850,9 @@
 									"Breakfast": [
 										"Mixed fruit jam",
 										"Boiled green gram",
-										"Boiled Egg",
-										"*Chocos*",
-										"Kachori",
-										"Imli chutney",
-										"Aloo sabji"
+										"Boiled Egg/Oats+Cornflakes",
+										"Wheat Dosa",
+										"Gineger/Groundnut chutney"
 									],
 									"Lunch": [
 										"Rice",
@@ -8877,7 +8876,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Black Chana",
-										"Fried Egg/Oats",
+										"Boiled egg/Oats+*Chocos*",
 										"Pav Bhaji",
 										"Pav Bhaji Masala"
 									],
@@ -8892,7 +8891,7 @@
 									],
 									"Snacks": ["Rusk (4 pieces)"],
 									"Dinner": [
-										"Rice",
+										"Jeera Rice",
 										"Phulka",
 										"Masoor Dal",
 										"*Paneer Tikka Masala*",
@@ -8904,9 +8903,9 @@
 									"Breakfast": [
 										"Mango jam",
 										"Green gram sprouts",
-										"Boiled Egg/Cornflakes",
+										"Boiled Egg/Oats+Cornflakes",
 										"Moong Dal Chilla",
-										"Tomato + Onion Chutney"
+										"Tomato+Onion Chutney"
 									],
 									"Lunch": [
 										"Rice",
@@ -8919,7 +8918,7 @@
 									],
 									"Snacks": ["Bhel puri"],
 									"Dinner": [
-										"Jeera Rice",
+										"Plain Rice",
 										"Methi Puri",
 										"Dal Tadka",
 										"Black Chana Curry",
@@ -8930,8 +8929,8 @@
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Millet sprouts",
-										"Fried Egg/Oats",
-										"Semiya Khichdi",
+										"*Fried Egg*/Oats+*Chocos*",
+										"Dalia Upma",
 										"Coconut Chutney"
 									],
 									"Lunch": [
@@ -8956,8 +8955,7 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Peanut",
-										"Boiled Egg",
-										"*Chocos*",
+										"Boiled Egg/Oats+*Chocos*",
 										"Aloo Paratha",
 										"Plain curd",
 										"Green Chutney"
@@ -8975,7 +8973,7 @@
 										"Rice",
 										"Phulka",
 										"Masoor Dal",
-										"Tawa mix veg sabzi",
+										"Aloo Gobi",
 										"Banana fruit",
 										"Milk + Boost"
 									]
@@ -8984,18 +8982,17 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Mixed sprouts",
-										"Boiled Egg/Oats",
+										"Boiled Egg/Oats+Cornflakes",
 										"Onion Dosa",
 										"Mix veg Sambar",
 										"Onion Tomato Chutney"
 									],
 									"Lunch": [
-										"Veg Hyderabadi Biryani",
+										"*Hyderabadi Paneer Biryani*",
 										"Phulka",
 										"Dal (Toor Dal)",
 										"Raita",
 										"Onion + Lemon salad",
-										"*Paneer Butter Masala*",
 										"Pineapple Kesari"
 									],
 									"Snacks": ["Chana chaat"],
@@ -9016,7 +9013,7 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Peanut",
-										"Fried Egg/Cornflakes",
+										"Fried Egg/Oats+Cornflakes",
 										"Poha",
 										"Jalebi",
 										"Tamarind Chutney"
@@ -9042,9 +9039,9 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Green gram Sprouts",
-										"Boiled Egg / Oats",
-										"Luchi",
-										"Aloo dum"
+										"Boiled Egg/Oats+*Chocos*",
+										"Wheat Dosa",
+										"Gineger/Groundnut chutney"
 									],
 									"Lunch": [
 										"Rice",
@@ -9067,7 +9064,7 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Chole",
-										"Boiled Egg/Cornflakes",
+										"Boiled Egg/Oats+Cornflakes",
 										"Idly + Medu Vada (2 Pcs)",
 										"Mix veg Sambar",
 										"Coconut chutney"
@@ -9076,27 +9073,27 @@
 										"Rice",
 										"Phulka",
 										"Dal(Rajma)",
-										"Sweet Lassi",
 										"Cabbage Peas sabzi",
-										"Gatte ki Sabzi"
+										"Gatte ki Sabzi",
+										"Sweet Lassi"
 									],
 									"Snacks": ["Masala boiled chana"],
 									"Dinner": [
-										"Rice",
+										"Jeera Rice",
 										"Phulka",
 										"Masoor Dal",
 										"*Shahi Paneer*",
-										"Seasonal Fruit",
-										"Lemon Juice"
+										"Lemon Juice",
+										"Seasonal Fruit"
 									]
 								},
 								"Thursday": {
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Boiled Green Gram",
-										"*Omelette*/Oats",
-										"Macaroni",
-										"Tomato sauce"
+										"*Omelette*/Oats+*Chocos*",
+										"Moong dal Khichidi",
+										"Chutney"
 									],
 									"Lunch": [
 										"Rice",
@@ -9107,9 +9104,9 @@
 									],
 									"Snacks": ["Veg puff / Bread Pakoda"],
 									"Dinner": [
-										"Jeera Rice",
+										"Plain Rice",
 										"Phulka",
-										"Mixed Dal fry",
+										"Tomato Dal",
 										"Chole Curry",
 										"Fruit Custard"
 									]
@@ -9118,7 +9115,7 @@
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Boiled Chole",
-										"Boiled Egg/*Chocos*",
+										"Boiled Egg/Oats+Cornflakes",
 										"Onion Uthappam",
 										"Groundnut chutney",
 										"Drumstick Sambar"
@@ -9127,7 +9124,7 @@
 										"Rice",
 										"Phulka",
 										"Chana dal",
-										"*Chilli Paneer dry*",
+										"*PaneerManchurian*",
 										"Kadai Mix Veg Curry"
 									],
 									"Snacks": ["Sev puri"],
@@ -9144,7 +9141,7 @@
 									"Breakfast": [
 										"Mango/Orange jam",
 										"Boiled Peanut",
-										"Fried Egg/Oats",
+										"Fried Egg/Oats+*Chocos*",
 										"Bedai Kachori",
 										"Aloo Sabji",
 										"Imli Chutney"
@@ -9171,25 +9168,23 @@
 									"Breakfast": [
 										"Mango Jam",
 										"Boiled Black Channa",
-										"Boiled Egg / *Chocos*",
+										"Boiled Egg/Oats+Cornflakes",
 										"Plain Dosa",
 										"Aloo Masala",
 										"Mix Veg Sambhar",
 										"Coconut Chutney"
 									],
 									"Lunch": [
-										"Mixed Veg Biryani",
+										"*Hyderabadi Paneer Biryani*",
 										"Phulka",
 										"Raita",
 										"Onion + Lemon salad",
 										"Dal (Toor Dal)",
-										"*Kadai Paneer*",
 										"Gulab Jamun"
 									],
 									"Snacks": ["Banana Cake/Rusk (4 Pcs)"],
 									"Dinner": [
 										"Rice",
-										"Dal fry",
 										"Puri",
 										"Chana Masala",
 										"Seasonal Fruit"
@@ -9198,15 +9193,15 @@
 							}
 						},
 						"C": {
-							"source": "Veg (Menu C)",
+							"source": "Veg (Menu A)",
 							"schedule": {
 								"Monday": {
 									"Breakfast": [
 										"Mango Jam",
 										"Boiled Chole",
-										"*Omelette*",
-										"Oats",
+										"*Omelette*/Oats+*Chocos*",
 										"Poha",
+										"Jalebi",
 										"Tamarind Chutney"
 									],
 									"Lunch": [
@@ -9222,7 +9217,7 @@
 										"Rice",
 										"Phulka",
 										"Chana dal",
-										"Malai Kofta / Raw banana kofta",
+										"Malai Kofta/Raw banana kofta",
 										"Boondi"
 									]
 								},
@@ -9230,11 +9225,8 @@
 									"Breakfast": [
 										"Mixed fruit jam",
 										"Boiled green gram",
-										"Boiled egg",
-										"*Chocos*",
-										"Kachori",
-										"Imli chutney",
-										"Aloo sabji"
+										"Boiled Egg/Oats+Cornflakes",
+										"Chole Puri"
 									],
 									"Lunch": [
 										"Rice",
@@ -9258,7 +9250,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Black Chana",
-										"Fried Egg/Oats",
+										"Boiled egg/Oats+*Chocos*",
 										"Pav Bhaji",
 										"Pav Bhaji Masala"
 									],
@@ -9273,7 +9265,7 @@
 									],
 									"Snacks": ["Biscuit packet"],
 									"Dinner": [
-										"Rice",
+										"Jeera Rice",
 										"Phulka",
 										"Masoor Dal",
 										"*Paneer Tikka Masala*",
@@ -9285,9 +9277,9 @@
 									"Breakfast": [
 										"Mango jam",
 										"Green gram sprouts",
-										"Boiled Egg/Cornflakes",
+										"Boiled Egg/Oats+Cornflakes",
 										"Moong Dal Chilla",
-										"Tomato + Onion Chutney"
+										"Tomato+Onion Chutney"
 									],
 									"Lunch": [
 										"Rice",
@@ -9300,7 +9292,7 @@
 									],
 									"Snacks": ["Bhel puri"],
 									"Dinner": [
-										"Jeera Rice",
+										"Plain Rice",
 										"Methi Puri",
 										"Dal Tadka",
 										"Black Chana Curry",
@@ -9311,8 +9303,8 @@
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Millet sprouts",
-										"Fried Egg/Oats",
-										"Semiya Khichdi",
+										"*Fried Egg*/Oats+*Chocos*",
+										"Dalia Upma",
 										"Coconut Chutney"
 									],
 									"Lunch": [
@@ -9337,8 +9329,7 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Peanut",
-										"Boiled Egg",
-										"*Chocos*",
+										"Boiled Egg/Oats+*Chocos*",
 										"Aloo Paratha",
 										"Plain curd",
 										"Green Chutney"
@@ -9351,12 +9342,12 @@
 										"Ridge gourd chana masala",
 										"Curd"
 									],
-									"Snacks": ["Aloo Bonda with sauce (2 pieces)"],
+									"Snacks": ["Mixed sprouts chaat"],
 									"Dinner": [
 										"Rice",
 										"Phulka",
 										"Masoor Dal",
-										"Tawa mix veg sabzi",
+										"Aloo Gobi",
 										"Banana fruit",
 										"Milk + Boost"
 									]
@@ -9365,19 +9356,18 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Mixed sprouts",
-										"Boiled Egg/Oats",
+										"Boiled Egg/Oats+Cornflakes",
 										"Plain Dosa",
 										"Mix veg Sambar",
 										"Onion Tomato Chutney"
 									],
 									"Lunch": [
-										"Veg Hyderabadi Biryani",
+										"*Hyderabadi Paneer Biryani*",
 										"Phulka",
 										"Dal (Toor Dal)",
 										"Raita",
 										"Onion + Lemon salad",
-										"*Paneer Butter Masala*",
-										"Sahi Tukda"
+										"Shahi Tukda"
 									],
 									"Snacks": ["Crispy soya chunks"],
 									"Dinner": [
@@ -9397,7 +9387,7 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Peanut",
-										"Fried Egg/Cornflakes",
+										"Fried Egg/Oats+Cornflakes",
 										"Poha",
 										"Jalebi",
 										"Tamarind Chutney"
@@ -9410,7 +9400,7 @@
 										"Kadi Pakoda",
 										"Buttermilk"
 									],
-									"Snacks": ["Fruit Cake/ Masala Bhel"],
+									"Snacks": ["Fruit cake/Masala Bhel"],
 									"Dinner": [
 										"Rice",
 										"Phulka",
@@ -9423,9 +9413,8 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Green gram Sprouts",
-										"Boiled Egg / Oats",
-										"Luchi",
-										"Aloo dum"
+										"Boiled Egg/Oats+*Chocos*",
+										"Chole Puri"
 									],
 									"Lunch": [
 										"Rice",
@@ -9434,7 +9423,7 @@
 										"Bhindi Do piyaza",
 										"Ghugni"
 									],
-									"Snacks": ["Chill Bajji with sauce"],
+									"Snacks": ["Corn chaat"],
 									"Dinner": [
 										"Peas Pulao",
 										"Phulka",
@@ -9448,7 +9437,7 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Chole",
-										"Boiled Egg/Cornflakes",
+										"Boiled Egg/Oats+Cornflakes",
 										"Idly + Medu Vada (2 Pcs)",
 										"Mix veg Sambar",
 										"Coconut chutney"
@@ -9457,27 +9446,27 @@
 										"Rice",
 										"Phulka",
 										"Dal(Rajma)",
-										"Sweet Lassi",
 										"Cabbage Peas sabzi",
-										"Gatte ki Sabzi"
+										"Gatte ki Sabzi",
+										"Sweet Lassi"
 									],
 									"Snacks": ["French Fries with tomato sauce"],
 									"Dinner": [
-										"Rice",
+										"Jeera Rice",
 										"Phulka",
 										"Masoor Dal",
 										"*Shahi Paneer*",
-										"Seasonal Fruit",
-										"Lemon Juice"
+										"Lemon Juice",
+										"Seasonal Fruit"
 									]
 								},
 								"Thursday": {
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Boiled Green Gram",
-										"*Omelette*/Oats",
-										"*Maggi*",
-										"Tomato sauce"
+										"*Omelette*/Oats+*Chocos*",
+										"Moong dal Khichidi",
+										"Chutney"
 									],
 									"Lunch": [
 										"Rice",
@@ -9488,9 +9477,9 @@
 									],
 									"Snacks": ["Dahi vada"],
 									"Dinner": [
-										"Jeera Rice",
+										"Plain Rice",
 										"Phulka",
-										"Mixed Dal fry",
+										"Tomato Dal",
 										"Chole Curry",
 										"Fruit Custard"
 									]
@@ -9499,7 +9488,7 @@
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Boiled Chole",
-										"Boiled Egg/*Chocos*",
+										"Boiled Egg/Oats+Cornflakes",
 										"Onion Uthappam",
 										"Groundnut chutney",
 										"Drumstick Sambar"
@@ -9508,7 +9497,7 @@
 										"Rice",
 										"Phulka",
 										"Chana dal",
-										"*Chilli Paneer dry*",
+										"*PaneerManchurian*",
 										"Kadai Mix Veg Curry"
 									],
 									"Snacks": ["Onion pakoda"],
@@ -9525,7 +9514,7 @@
 									"Breakfast": [
 										"Mango/Orange jam",
 										"Boiled Peanut",
-										"Fried Egg/Oats",
+										"Fried Egg/Oats+*Chocos*",
 										"Bedai Kachori",
 										"Aloo Sabji",
 										"Imli Chutney"
@@ -9552,25 +9541,23 @@
 									"Breakfast": [
 										"Mango Jam",
 										"Boiled Black Channa",
-										"Boiled Egg / *Chocos*",
+										"Boiled Egg/Oats+Cornflakes",
 										"Plain Dosa",
 										"Aloo Masala",
 										"Mix Veg Sambhar",
 										"Coconut Chutney"
 									],
 									"Lunch": [
-										"Mixed Veg Biryani",
+										"*Hyderabadi Paneer Biryani*",
 										"Phulka",
 										"Raita",
 										"Onion + Lemon salad",
 										"Dal (Toor Dal)",
-										"*Kadai Paneer*",
 										"Double Ka Meetha"
 									],
 									"Snacks": ["Sundal"],
 									"Dinner": [
 										"Rice",
-										"Dal fry",
 										"Puri",
 										"Chana Masala",
 										"Seasonal Fruit"
@@ -9593,9 +9580,9 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Chole",
-										"*Omelette*",
-										"Oats",
+										"*Omelette*/Oats+Cornflakes",
 										"Poha",
+										"Jalebi",
 										"Tamarind Chutney"
 									],
 									"Lunch": [
@@ -9619,8 +9606,7 @@
 									"Breakfast": [
 										"Mixed fruit jam",
 										"Boiled green gram",
-										"Boiled Egg",
-										"*Chocos*",
+										"Boiled Egg/Oats+*Chocos*",
 										"Kachori",
 										"Imli chutney",
 										"Aloo sabji"
@@ -9633,7 +9619,7 @@
 										"Red Pumpkin Chana Masala",
 										"Curd"
 									],
-									"Snacks": ["Mysore bonda with Coconut Chutney"],
+									"Snacks": ["Roasted Chana Chaat"],
 									"Dinner": [
 										"Veg Fried Rice",
 										"Chapathi",
@@ -9647,7 +9633,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Black Chana",
-										"Fried Egg/Oats",
+										"Fried Egg/Oats+Cornflakes",
 										"Pav Bhaji",
 										"Pav Bhaji Masala"
 									],
@@ -9674,7 +9660,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Green gram sprouts",
-										"Boiled Egg/Cornflakes",
+										"Boiled Egg/Oats+*Chocos*",
 										"Moong Dal Chilla",
 										"Tomato + Onion Chutney"
 									],
@@ -9700,8 +9686,8 @@
 									"Breakfast": [
 										"Mix fruit Jam",
 										"Millet sprouts",
-										"Fried Egg/Oats",
-										"Semiya Khichdi",
+										"*Fried Egg*/Oats+Cornflakes",
+										"Dalia Upma",
 										"Coconut Chutney"
 									],
 									"Lunch": [
@@ -9726,8 +9712,7 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Peanut",
-										"Boiled Egg",
-										"*Chocos*",
+										"Boiled Egg/Oats+*Chocos*",
 										"Aloo Paratha",
 										"Plain curd",
 										"Green chutney"
@@ -9745,7 +9730,7 @@
 										"Rice",
 										"Phulka",
 										"Masoor Dal",
-										"Tawa mix veg sabji",
+										"Aloo Gobi",
 										"Banana fruit",
 										"Milk + Boost"
 									]
@@ -9754,7 +9739,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Mixed sprouts",
-										"Boiled Egg/Oats",
+										"Boiled Egg/Oats+Cornflakes",
 										"Onion Dosa",
 										"Mix veg Sambar",
 										"Onion Tomato Chutney"
@@ -9785,8 +9770,9 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Peanut",
-										"Fried Egg / Cornflakes",
+										"Fried Egg/Oats+*Chocos*",
 										"Poha",
+										"Jalebi",
 										"Tamarind Chutney"
 									],
 									"Lunch": [
@@ -9794,14 +9780,15 @@
 										"Phulka",
 										"Dal (Moong)",
 										"Jeera Aloo",
-										"Kadi Pakoda"
+										"Kadi Pakoda",
+										"Buttermilk"
 									],
 									"Snacks": ["Biscuit Packet"],
 									"Dinner": [
 										"Rice",
 										"Phulka",
 										"Channa dal",
-										"*Egg Curry (1pc)*",
+										"*Egg Mughlai (1 pc)*",
 										"Rice Kheer"
 									]
 								},
@@ -9809,9 +9796,9 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Green gram Sprouts",
-										"Boiled Egg / Oats",
-										"Luchi",
-										"Aloo dum"
+										"Boiled Egg/Oats+Cornflakes",
+										"Wheat Dosa",
+										"Gineger/Groundnut chutney"
 									],
 									"Lunch": [
 										"Rice",
@@ -9834,7 +9821,7 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Chole",
-										"Boiled Egg/Cornflakes",
+										"Boiled Egg/Oats+*Chocos*",
 										"Idly + Medu Vada",
 										"Mix veg sambar",
 										"Coconut chutney"
@@ -9843,27 +9830,27 @@
 										"Rice",
 										"Phulka",
 										"Dal (Rajma)",
-										"Sweet Lassi",
 										"Cabbage Peas sabzi",
-										"Gatte ki Sabzi"
+										"Gatte ki Sabzi",
+										"Sweet Lassi"
 									],
 									"Snacks": ["Masala boiled Chana"],
 									"Dinner": [
-										"Rice",
+										"Jeera Rice",
 										"Phulka",
 										"Masoor Dal",
 										"*Punjabi Chicken Curry*",
-										"Seasonal Fruit",
-										"Lemon Juice"
+										"Lemon Juice",
+										"Seasonal Fruit"
 									]
 								},
 								"Thursday": {
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Boiled Green Gram",
-										"*Omelette*/Oats",
-										"Macaroni",
-										"Tomato sauce"
+										"*Omelette*/Oats+Cornflakes",
+										"Moong dal Khichidi",
+										"Chutney"
 									],
 									"Lunch": [
 										"Rice",
@@ -9885,7 +9872,7 @@
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Boiled Chole",
-										"Boiled Egg/*Chocos*",
+										"Boiled Egg/Oats+*Chocos*",
 										"Onion Uthappam",
 										"Groundnut chutney",
 										"Drumstick Sambar"
@@ -9894,7 +9881,7 @@
 										"Rice",
 										"Phulka",
 										"Chana dal",
-										"*Chilli Paneer dry*",
+										"*Paneer Manchurian*",
 										"Kadai Mix Veg Curry"
 									],
 									"Snacks": ["Sev puri"],
@@ -9902,7 +9889,7 @@
 										"Rice",
 										"Phulka",
 										"Mixed Dal Fry",
-										"*Egg Mughlai (1 pcs)*",
+										"*Egg Ghee Roast (1 pcs)*",
 										"Water Melon fruit",
 										"Buttermilk"
 									]
@@ -9911,7 +9898,7 @@
 									"Breakfast": [
 										"Mango/Orange jam",
 										"Boiled Peanut",
-										"Fried Egg/Oats",
+										"*Fried Egg*/Oats+Cornflakes",
 										"Bedai Kachori",
 										"Aloo Sabji",
 										"Imli Chutney"
@@ -9938,13 +9925,14 @@
 									"Breakfast": [
 										"Mango Jam",
 										"Boiled Black Channa",
-										"Boiled Egg/*Chocos*",
+										"Boiled Egg/Oats+*Chocos*",
 										"Plain Dosa",
 										"Aloo Masala",
 										"Mix Veg Sambhar",
 										"Coconut Chutney"
 									],
 									"Lunch": [
+										"Phulka",
 										"Toor Dal",
 										"*Hyderabadi Chicken Dum Biryani*",
 										"Raita",
@@ -9957,7 +9945,7 @@
 										"Dal fry",
 										"Puri",
 										"Chana Masala",
-										"Mixed Fruit salad"
+										"Seasonal fruit"
 									]
 								}
 							}
@@ -9969,9 +9957,9 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Chole",
-										"*Omelette*",
-										"Oats",
+										"*Omelette*/Oats+Cornflakes",
 										"Poha",
+										"Jalebi",
 										"Tamarind Chutney"
 									],
 									"Lunch": [
@@ -9995,8 +9983,7 @@
 									"Breakfast": [
 										"Mixed fruit jam",
 										"Boiled green gram",
-										"Boiled Egg",
-										"*Chocos*",
+										"Boiled Egg/Oats+*Chocos*",
 										"Kachori",
 										"Imli chutney",
 										"Aloo sabji"
@@ -10023,7 +10010,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Black Chana",
-										"Fried Egg/Oats",
+										"*Fried Egg*/Oats+Cornflakes",
 										"Pav Bhaji",
 										"Pav Bhaji Masala"
 									],
@@ -10050,7 +10037,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Green gram sprouts",
-										"Boiled Egg/Cornflakes",
+										"Boiled Egg/Oats+*Chocos*",
 										"Moong Dal Chilla",
 										"Tomato + Onion Chutney"
 									],
@@ -10076,8 +10063,8 @@
 									"Breakfast": [
 										"Mix fruit Jam",
 										"Millet sprouts",
-										"Fried Egg/Oats",
-										"Semiya Khichdi",
+										"Fried Egg/Oats+Cornflakes",
+										"Dalia Upma",
 										"Coconut Chutney"
 									],
 									"Lunch": [
@@ -10102,8 +10089,7 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Peanut",
-										"Boiled Egg",
-										"*Chocos*",
+										"Boiled Egg/Oats+*Chocos*",
 										"Aloo Paratha",
 										"Plain curd",
 										"Green chutney"
@@ -10116,12 +10102,12 @@
 										"Ridge gourd chana Masala",
 										"Curd"
 									],
-									"Snacks": ["Aloo Bonda with sauce (2 pieces)"],
+									"Snacks": ["Mixed sprouts chaat"],
 									"Dinner": [
 										"Rice",
 										"Phulka",
 										"Masoor Dal",
-										"Tawa mix veg sabji",
+										"Aloo Gobi",
 										"Banana fruit",
 										"Milk + Boost"
 									]
@@ -10130,7 +10116,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Mixed sprouts",
-										"Boiled Egg/Oats",
+										"Boiled Egg/Oats+Cornflakes",
 										"Plain Dosa",
 										"Mix veg Sambar",
 										"Onion Tomato Chutney"
@@ -10161,8 +10147,9 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Peanut",
-										"Fried Egg / Cornflakes",
+										"Fried Egg/Oats+*Chocos*",
 										"Poha",
+										"Jalebi",
 										"Tamarind Chutney"
 									],
 									"Lunch": [
@@ -10170,14 +10157,15 @@
 										"Phulka",
 										"Dal (Moong)",
 										"Jeera Aloo",
-										"Kadi Pakoda"
+										"Kadi Pakoda",
+										"Buttermilk"
 									],
 									"Snacks": ["Fruit Cake/ Masala Bhel"],
 									"Dinner": [
 										"Rice",
 										"Phulka",
 										"Channa dal",
-										"*Egg Curry (1pc)*",
+										"*Egg Mughlai (1 pc)*",
 										"Rice Kheer"
 									]
 								},
@@ -10185,9 +10173,8 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Green gram Sprouts",
-										"Boiled Egg / Oats",
-										"Luchi",
-										"Aloo dum"
+										"Boiled Egg/Oats+Cornflakes",
+										"Chole Puri"
 									],
 									"Lunch": [
 										"Rice",
@@ -10196,7 +10183,7 @@
 										"Bhindi Do piyaza",
 										"Ghugni"
 									],
-									"Snacks": ["Chill Bajji with sauce"],
+									"Snacks": ["Corn chaat"],
 									"Dinner": [
 										"Peas Pulao",
 										"Phulka",
@@ -10210,7 +10197,7 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled Chole",
-										"Boiled Egg/Cornflakes",
+										"Boiled Egg/Oats+*Chocos*",
 										"Idly + Medu Vada",
 										"Mix veg sambar",
 										"Coconut chutney"
@@ -10219,27 +10206,27 @@
 										"Rice",
 										"Phulka",
 										"Dal (Rajma)",
-										"Sweet Lassi",
 										"Cabbage Peas sabzi",
-										"Gatte ki Sabzi"
+										"Gatte ki Sabzi",
+										"Sweet Lassi"
 									],
 									"Snacks": ["French Fries with tomato sauce"],
 									"Dinner": [
-										"Rice",
+										"Jeera Rice",
 										"Phulka",
 										"Masoor Dal",
 										"*Punjabi Chicken Curry*",
-										"Seasonal Fruit",
-										"Lemon Juice"
+										"Lemon Juice",
+										"Seasonal Fruit"
 									]
 								},
 								"Thursday": {
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Boiled Green Gram",
-										"*Omelette*/Oats",
-										"*Maggi*",
-										"Tomato sauce"
+										"*Omelette*/Oats+Cornflakes",
+										"Moong dal Khichidi",
+										"Chutney"
 									],
 									"Lunch": [
 										"Rice",
@@ -10261,7 +10248,7 @@
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Boiled Chole",
-										"Boiled Egg/*Chocos*",
+										"Boiled Egg/Oats+*Chocos*",
 										"Onion Uthappam",
 										"Groundnut chutney",
 										"Drumstick Sambar"
@@ -10270,7 +10257,7 @@
 										"Rice",
 										"Phulka",
 										"Chana dal",
-										"*Chilli Paneer dry*",
+										"*Paneer Manchurian*",
 										"Kadai Mix Veg Curry"
 									],
 									"Snacks": ["Onion pakoda"],
@@ -10278,7 +10265,7 @@
 										"Rice",
 										"Phulka",
 										"Mixed Dal Fry",
-										"*Egg Mughlai (1 pcs)*",
+										"*Egg Ghee Roast (1 pcs)*",
 										"Water Melon fruit",
 										"Buttermilk"
 									]
@@ -10287,7 +10274,7 @@
 									"Breakfast": [
 										"Mango/Orange jam",
 										"Boiled Peanut",
-										"Fried Egg/Oats",
+										"*Fried Egg*/Oats+Cornflakes",
 										"Bedai Kachori",
 										"Aloo Sabji",
 										"Imli Chutney"
@@ -10314,13 +10301,14 @@
 									"Breakfast": [
 										"Mango Jam",
 										"Boiled Black Channa",
-										"Boiled Egg/*Chocos*",
+										"Boiled Egg/Oats+*Chocos*",
 										"Plain Dosa",
 										"Aloo Masala",
 										"Mix Veg Sambhar",
 										"Coconut Chutney"
 									],
 									"Lunch": [
+										"Phulks",
 										"Toor Dal",
 										"*Hyderabadi Chicken Dum Biryani*",
 										"Raita",
@@ -10333,7 +10321,7 @@
 										"Dal fry",
 										"Puri",
 										"Chana Masala",
-										"Mixed Fruit salad"
+										"Seasonal fruit"
 									]
 								}
 							}
@@ -10353,8 +10341,9 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Chole",
-										"Oats",
+										"Oats-Chocos",
 										"Poha",
+										"Jalebi",
 										"Tamarind Chutney"
 									],
 									"Lunch": [
@@ -10378,8 +10367,7 @@
 									"Breakfast": [
 										"Mixed fruit jam",
 										"Boiled green gram",
-										"Fried Egg",
-										"*Chocos*",
+										"Fried Egg/Oats-Cornflakes",
 										"Kachori",
 										"Imli chutney",
 										"Aloo sabji"
@@ -10390,10 +10378,10 @@
 										"Dal (Masoor)",
 										"Bhindi Aloo Bhujia",
 										"Red Pumpkin Chana Masala",
-										"Tori Ki Sabzi (Sponge gourd)",
+										"-Tori Ki Sabzi (Sponge gourd)",
 										"Curd"
 									],
-									"Snacks": ["Mysore Bonda with Coconut Chutney"],
+									"Snacks": ["Roasted Chana Chaat"],
 									"Dinner": [
 										"Veg Fried Rice",
 										"Roti",
@@ -10407,7 +10395,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Black Chana",
-										"Oats",
+										"Oats-Chocos",
 										"Pav Bhaji",
 										"Pav Bhaji Masala"
 									],
@@ -10416,9 +10404,9 @@
 										"Phulka",
 										"Dal (Rajma)",
 										"Carrot Peas foogath",
-										"Peas Masala",
+										"-Peas Masala",
 										"Aloo Baigan Tamatar masala",
-										"Sev Tamatar",
+										"-Sev Tamatar",
 										"Detox Water",
 										"Sweet Lassi"
 									],
@@ -10428,7 +10416,7 @@
 										"Roti",
 										"Masoor Dal",
 										"*Kadai Paneer*",
-										"Seasonal Fruit",
+										"Seasonal Fruit (Papaya, Orange, etc.)",
 										"Lemon Juice"
 									]
 								},
@@ -10436,7 +10424,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Green gram Sprouts",
-										"Oats",
+										"Oats-Cornflakes",
 										"Moong Dal Chilla",
 										"Tomato + Onion Chutney"
 									],
@@ -10444,7 +10432,7 @@
 										"Rice",
 										"Phulka",
 										"Dal (Toor)",
-										"*Aloo Karela (dry)*",
+										"Aloo Karela (dry)",
 										"Lauki Chana Dal (semi-fry)",
 										"Curd"
 									],
@@ -10461,8 +10449,8 @@
 									"Breakfast": [
 										"Mix fruit Jam",
 										"Millet sprouts",
-										"Cornflakes",
-										"Semiya Khichdi",
+										"Oats-Chocos",
+										"Dalia Upma",
 										"Coconut Chutney"
 									],
 									"Lunch": [
@@ -10488,9 +10476,9 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled green Gram",
-										"*Chocos*",
+										"Oats-Cornflakes",
 										"Aloo Paratha",
-										"Cabbage Paratha",
+										"-Cabbage Paratha",
 										"Curd",
 										"Green Chutney"
 									],
@@ -10499,7 +10487,7 @@
 										"Green Methi Paratha",
 										"Mixed Dal Tadka",
 										"Jeera Aloo",
-										"Tindly Fry",
+										"-Tindly Fry",
 										"Ridge gourd masala",
 										"Curd"
 									],
@@ -10508,7 +10496,7 @@
 										"Rice",
 										"Roti",
 										"Masoor Dal",
-										"Tawa mix veg sabzi",
+										"Aloo Gobi",
 										"Banana fruit",
 										"Milk + Boost"
 									]
@@ -10517,7 +10505,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Chole / Green Gram sprouts",
-										"Oats",
+										"Oats-Chocos",
 										"Plain Dosa",
 										"Aloo masala",
 										"Mix veg Sambhar",
@@ -10548,8 +10536,9 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Millet sprouts",
-										"Cornflakes",
+										"Oats-Cornflakes",
 										"Poha",
+										"Jalebi",
 										"Sev",
 										"Tamarind Chutney"
 									],
@@ -10558,7 +10547,7 @@
 										"Roti",
 										"Dal fry",
 										"Jeera Aloo",
-										"Sev Tamatar",
+										"-Sev Tamatar",
 										"Kadi Pakoda",
 										"Buttermilk"
 									],
@@ -10568,17 +10557,17 @@
 										"Roti",
 										"Channa dal",
 										"Bangara baigan Dry",
-										"Raw Banana dry",
-										"Rice Kheer"
+										"-Raw Banana dry",
+										"Watermelon fruit"
 									]
 								},
 								"Tuesday": {
 									"Breakfast": [
 										"Pineapple Jam",
 										"Green gram Sprouts",
-										"Oats",
-										"Luchi",
-										"Aloo Dum"
+										"Oats-Chocos",
+										"Wheat Dosa",
+										"Ginger/Groundnut chutney"
 									],
 									"Lunch": [
 										"Rice",
@@ -10594,16 +10583,17 @@
 										"Roti",
 										"Toor dal",
 										"Vegetable Manchurian",
-										"Papaya fruit",
-										"Buttermilk"
+										"Buttermilk",
+										"Papaya fruit"
 									]
 								},
 								"Wednesday": {
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled black chana",
-										"Cornflakes",
-										"Rice Idly + Medu Vada",
+										"Oats-Cornflakes",
+										"Rice Idly",
+										"Medu Vada Without Onion (2 pcs)",
 										"Mix veg Sambar",
 										"Coconut chutney"
 									],
@@ -10613,41 +10603,42 @@
 										"Dal (Rajma)",
 										"Sweet Lassi",
 										"Cabbage Peas dry",
-										"Aloo Parwal (seasonal)",
-										"Soya Beans curry"
+										"Aloo Parwal (seasonal) curry",
+										"-Soya Beans curry",
+										"Sweet Lassi"
 									],
 									"Snacks": ["Masala boiled Chana"],
 									"Dinner": [
-										"Rice",
+										"Jeera Rice",
 										"Roti",
 										"Masoor Dal",
 										"*Shahi Paneer*",
-										"Seasonal Fruit",
-										"Lemon Juice"
+										"Lemon Juice",
+										"Seasonal Fruit"
 									]
 								},
 								"Thursday": {
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Boiled Green Gram",
-										"Oats",
-										"Macaroni",
-										"Sauce"
+										"Oats-Chocos",
+										"Moong dal Khichidi",
+										"Chutney"
 									],
 									"Lunch": [
 										"Rice",
 										"Roti",
 										"Dal (Urad)",
 										"*Mushroom Peas Aloo masala*",
-										"Peas Masala",
+										"-Peas Masala",
 										"Tindly Fry"
 									],
 									"Snacks": ["Veg Puff/ Bread Pakoda"],
 									"Dinner": [
-										"Jeera Rice",
+										"Plain Rice",
 										"Phulka",
 										"Aloo Beans dry",
-										"Beans dry",
+										"-Beans dry",
 										"Chole Curry",
 										"Fruit Custard"
 									]
@@ -10656,7 +10647,7 @@
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Chole Green Gram",
-										"*Chocos*",
+										"Oats-Cornflakes",
 										"Plain Uthappam",
 										"Coconut chutney",
 										"Mix Veg Sambhar"
@@ -10665,7 +10656,7 @@
 										"Rice",
 										"Roti",
 										"Chana dal",
-										"*Chilli Paneer semi dry*",
+										"*Paneer Manchurian*",
 										"Kadai Mix Veg Curry"
 									],
 									"Snacks": ["Sev puri"],
@@ -10682,7 +10673,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled chole",
-										"Oats",
+										"Oats-Chocos",
 										"Poori",
 										"Aloo masala"
 									],
@@ -10692,7 +10683,7 @@
 										"Roti",
 										"Green leaf sabji",
 										"Aloo Gobhi curry",
-										"Chow Chow curry",
+										"-Chow Chow curry",
 										"Fried green chilli"
 									],
 									"Snacks": ["Samosa - 1 no"],
@@ -10708,10 +10699,10 @@
 									"Breakfast": [
 										"Mango/Orange jam",
 										"Boiled Green gram",
-										"*Chocos*",
-										"Aloo paratha",
-										"Gobi paratha",
-										"Green chutney Curd"
+										"Oats-Cornflakes",
+										"Aloo paratha/-Gobi paratha",
+										"Green chutney",
+										"Curd"
 									],
 									"Lunch": [
 										"Mixed Veg Biryani",
@@ -10738,8 +10729,9 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Chole",
-										"Oats",
+										"Oats-Chocos",
 										"Poha",
+										"Jalebi",
 										"Tamarind Chutney"
 									],
 									"Lunch": [
@@ -10763,8 +10755,7 @@
 									"Breakfast": [
 										"Mixed fruit jam",
 										"Boiled green gram",
-										"Fried Egg",
-										"*Chocos*",
+										"Fried Egg/Oats-Cornflakes",
 										"Kachori",
 										"Imli chutney",
 										"Aloo sabji"
@@ -10775,7 +10766,7 @@
 										"Dal (Masoor)",
 										"Bhindi Aloo Bhujia",
 										"Red Pumpkin Chana Masala",
-										"Tori Ki Sabzi (Sponge gourd)",
+										"-Tori Ki Sabzi (Sponge gourd)",
 										"Curd"
 									],
 									"Snacks": ["Punugulu with kara chutney"],
@@ -10792,7 +10783,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled Black Chana",
-										"Oats",
+										"Oats-Chocos",
 										"Pav Bhaji",
 										"Pav Bhaji Masala"
 									],
@@ -10801,19 +10792,19 @@
 										"Phulka",
 										"Dal (Rajma)",
 										"Carrot Peas foogath",
-										"Peas Masala",
+										"-Peas Masala",
 										"Aloo Baigan Tamatar masala",
-										"Sev Tamatar",
+										"-Sev Tamatar",
 										"Detox Water",
 										"Sweet Lassi"
 									],
-									"Snacks": ["Biscuit Packet"],
+									"Snacks": ["Biscuit packet"],
 									"Dinner": [
 										"Ghee rice",
 										"Roti",
 										"Masoor Dal",
 										"*Kadai Paneer*",
-										"Seasonal Fruit",
+										"Seasonal Fruit (Papaya, Orange, etc.)",
 										"Lemon Juice"
 									]
 								},
@@ -10821,7 +10812,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Green gram Sprouts",
-										"Oats",
+										"Oats-Cornflakes",
 										"Moong Dal Chilla",
 										"Tomato + Onion Chutney"
 									],
@@ -10829,7 +10820,7 @@
 										"Rice",
 										"Phulka",
 										"Dal (Toor)",
-										"*Aloo Karela (dry)*",
+										"Aloo Karela (dry)",
 										"Lauki Chana Dal (semi-fry)",
 										"Curd"
 									],
@@ -10846,8 +10837,8 @@
 									"Breakfast": [
 										"Mix fruit Jam",
 										"Millet sprouts",
-										"Cornflakes",
-										"Semiya Khichdi",
+										"Oats-Chocos",
+										"Dalia Upma",
 										"Coconut Chutney"
 									],
 									"Lunch": [
@@ -10859,7 +10850,7 @@
 										"Fried green Chilli",
 										"Curd"
 									],
-									"Snacks": ["Banana bajji"],
+									"Snacks": ["Banana bajji (1 piece)"],
 									"Dinner": [
 										"Rice",
 										"Chapati",
@@ -10873,9 +10864,9 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled green Gram",
-										"*Chocos*",
+										"Oats-Cornflakes",
 										"Aloo Paratha",
-										"Cabbage Paratha",
+										"-Cabbage Paratha",
 										"Curd",
 										"Green Chutney"
 									],
@@ -10884,16 +10875,16 @@
 										"Green Methi Paratha",
 										"Mixed Dal Tadka",
 										"Jeera Aloo",
-										"Tindly Fry",
+										"-Tindly Fry",
 										"Ridge gourd masala",
 										"Curd"
 									],
-									"Snacks": ["Aloo Bonda with sauce (2 pieces)"],
+									"Snacks": ["Mixed sprouts chaat"],
 									"Dinner": [
 										"Rice",
 										"Roti",
 										"Masoor Dal",
-										"Tawa mix veg sabzi",
+										"Aloo Gobi",
 										"Banana fruit",
 										"Milk + Boost"
 									]
@@ -10902,7 +10893,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Chole / Green Gram sprouts",
-										"Oats",
+										"Oats-Chocos",
 										"Plain Dosa",
 										"Aloo masala",
 										"Mix veg Sambhar",
@@ -10913,7 +10904,7 @@
 										"Roti",
 										"Onion / Cucumber raita",
 										"*Paneer Butter Masala*",
-										"Sahi Tukda"
+										"Shahi Tukda"
 									],
 									"Snacks": ["Crispy soya chunks"],
 									"Dinner": [
@@ -10933,8 +10924,9 @@
 									"Breakfast": [
 										"Pineapple Jam",
 										"Millet sprouts",
-										"Cornflakes",
+										"Oats-Cornflakes",
 										"Poha",
+										"Jalebi",
 										"Sev",
 										"Tamarind Chutney"
 									],
@@ -10943,27 +10935,27 @@
 										"Roti",
 										"Dal fry",
 										"Jeera Aloo",
-										"Sev Tamatar",
+										"-Sev Tamatar",
 										"Kadi Pakoda",
 										"Buttermilk"
 									],
-									"Snacks": ["Fruit Cake/ Masala Bhel"],
+									"Snacks": ["Fruit cake/Masala Bhel"],
 									"Dinner": [
 										"Rice",
 										"Roti",
 										"Channa dal",
 										"Bangara baigan Dry",
-										"Raw Banana dry",
-										"Rice Kheer"
+										"-Raw Banana dry",
+										"Watermelon fruit"
 									]
 								},
 								"Tuesday": {
 									"Breakfast": [
 										"Pineapple Jam",
 										"Green gram Sprouts",
-										"Oats",
-										"Luchi",
-										"Aloo Dum"
+										"Oats-Chocos",
+										"Chole Puri",
+										"Aloo dum"
 									],
 									"Lunch": [
 										"Rice",
@@ -10973,22 +10965,23 @@
 										"Aloo saag sabji",
 										"Fried green chilli"
 									],
-									"Snacks": ["Chill Bajji with sauce"],
+									"Snacks": ["Corn chaat"],
 									"Dinner": [
 										"Fried rice",
 										"Roti",
 										"Toor dal",
 										"Vegetable Manchurian",
-										"Papaya fruit",
-										"Buttermilk"
+										"Buttermilk",
+										"Papaya fruit"
 									]
 								},
 								"Wednesday": {
 									"Breakfast": [
 										"Pineapple Jam",
 										"Boiled black chana",
-										"Cornflakes",
-										"Rice Idly + Medu Vada",
+										"Oats-Cornflakes",
+										"Rice Idly",
+										"Medu Vada Without Onion (2 pcs)",
 										"Mix veg Sambar",
 										"Coconut chutney"
 									],
@@ -10998,41 +10991,42 @@
 										"Dal (Rajma)",
 										"Sweet Lassi",
 										"Cabbage Peas dry",
-										"Aloo Parwal (seasonal)",
-										"Soya Beans curry"
+										"Aloo Parwal (seasonal) curry",
+										"-Soya Beans curry",
+										"Sweet Lassi"
 									],
 									"Snacks": ["French Fries with tomato sauce"],
 									"Dinner": [
-										"Rice",
+										"Jeera Rice",
 										"Roti",
 										"Masoor Dal",
 										"*Shahi Paneer*",
-										"Seasonal Fruit",
-										"Lemon Juice"
+										"Lemon Juice",
+										"Seasonal Fruit"
 									]
 								},
 								"Thursday": {
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Boiled Green Gram",
-										"Oats",
-										"*Maggi*",
-										"Sauce"
+										"Oats-Chocos",
+										"Moong dal Khichidi",
+										"Chutney"
 									],
 									"Lunch": [
 										"Rice",
 										"Roti",
 										"Dal (Urad)",
 										"*Mushroom Peas Aloo masala*",
-										"Peas Masala",
+										"-Peas Masala",
 										"Tindly Fry"
 									],
 									"Snacks": ["Dahi vada"],
 									"Dinner": [
-										"Jeera Rice",
+										"Plain Rice",
 										"Phulka",
 										"Aloo Beans dry",
-										"Beans dry",
+										"-Beans dry",
 										"Chole Curry",
 										"Fruit Custard"
 									]
@@ -11041,7 +11035,7 @@
 									"Breakfast": [
 										"Mixed Fruit Jam",
 										"Chole Green Gram",
-										"*Chocos*",
+										"Oats-Cornflakes",
 										"Plain Uthappam",
 										"Coconut chutney",
 										"Mix Veg Sambhar"
@@ -11050,7 +11044,7 @@
 										"Rice",
 										"Roti",
 										"Chana dal",
-										"*Chilli Paneer semi dry*",
+										"*Paneer Manchurian*",
 										"Kadai Mix Veg Curry"
 									],
 									"Snacks": ["Onion pakoda"],
@@ -11067,7 +11061,7 @@
 									"Breakfast": [
 										"Mango jam",
 										"Boiled chole",
-										"Oats",
+										"Oats-Chocos",
 										"Poori",
 										"Aloo masala"
 									],
@@ -11077,7 +11071,7 @@
 										"Roti",
 										"Green leaf sabji",
 										"Aloo Gobhi curry",
-										"Chow Chow curry",
+										"-Chow Chow curry",
 										"Fried green chilli"
 									],
 									"Snacks": ["Dahi papdi chaat"],
@@ -11085,7 +11079,7 @@
 										"Rice",
 										"Roti",
 										"Dal Makhani",
-										"Lauki chana sabji",
+										"Rad pumpkin sabji",
 										"Banana fruit"
 									]
 								},
@@ -11093,10 +11087,10 @@
 									"Breakfast": [
 										"Mango/Orange jam",
 										"Boiled Green gram",
-										"*Chocos*",
-										"Aloo paratha",
-										"Gobi paratha",
-										"Green chutney Curd"
+										"Oats-Cornflakes",
+										"Aloo paratha/-Gobi paratha",
+										"Green chutney",
+										"Curd"
 									],
 									"Lunch": [
 										"Mixed Veg Biryani",
@@ -11131,7 +11125,7 @@
 									"Breakfast": [
 										"Boiled Egg/Oats+Cornflakes",
 										"Boiled Chawli White",
-										"White Pongal",
+										"Pongal",
 										"Groundnut chutney",
 										"Mix veg Sambar"
 									],
@@ -11178,7 +11172,7 @@
 								},
 								"Wednesday": {
 									"Breakfast": [
-										"*Omelette*/Oats+*Chocos*",
+										"*Omelette*/Oats+Cornflakes",
 										"Green Gram Sprouts",
 										"Vegetable rava upma",
 										"Coconut chutney"
@@ -11313,7 +11307,7 @@
 										"*Boiled Egg*/Oats+Cornflakes",
 										"Boiled Peanut",
 										"Puri",
-										"mix veg masala"
+										"Mixed veg masala"
 									],
 									"Lunch": [
 										"Cucumber carrot salad",
@@ -11409,7 +11403,7 @@
 								},
 								"Friday": {
 									"Breakfast": [
-										"Boiled egg/Oats+*Chocos*",
+										"Boiled egg/Oats+Cornflakes",
 										"Boiled peanut",
 										"Moong dal Kichidi",
 										"Chutney",
@@ -11856,7 +11850,7 @@
 									"Breakfast": [
 										"Boiled Egg/Oats+Cornflakes",
 										"Boiled Chawli White",
-										"White Pongal",
+										"Pongal",
 										"Groundnut chutney",
 										"Mix veg Sambar"
 									],
@@ -11903,7 +11897,7 @@
 								},
 								"Wednesday": {
 									"Breakfast": [
-										"*Omelette*/Oats+*Chocos*",
+										"*Omelette*/Oats+Cornflakes",
 										"Green Gram Sprouts",
 										"Vegetable rava upma",
 										"Coconut chutney"
@@ -12014,6 +12008,7 @@
 									"Lunch": [
 										"Onion lemon Cucumber salad",
 										"*Hyderabadi Chicken Dum biryani*",
+										"Salna",
 										"Tomato rasam",
 										"Boondi Raita",
 										"*Gulab Jamun (2 pieces)*"
@@ -12038,7 +12033,7 @@
 										"*Boiled Egg*/Oats+Cornflakes",
 										"Boiled Peanut",
 										"Puri",
-										"mix veg masala"
+										"Mixed veg masala"
 									],
 									"Lunch": [
 										"Cucumber carrot salad",
@@ -12051,6 +12046,7 @@
 									"Dinner": [
 										"Veg pulao",
 										"*Egg Mughalai*",
+										"Roti",
 										"Dal",
 										"Rava kesari",
 										"Salad"
@@ -12133,7 +12129,7 @@
 								},
 								"Friday": {
 									"Breakfast": [
-										"Boiled egg/Oats+*Chocos*",
+										"Boiled egg/Oats+Cornflakes",
 										"Boiled peanut",
 										"Moong dal Kichidi",
 										"Chutney",
@@ -12578,10 +12574,10 @@
 							"schedule": {
 								"Monday": {
 									"Breakfast": [
-										"Boiled Egg (5 Nos Max)",
+										"Boiled Egg (5 Nos Max) / Boiled Black Chana (150gm)",
 										"Paneer Burji (100gm)",
-										"Milet Idly Beans",
-										"Sambar/Chutney",
+										"Milet Idly",
+										"Beans Sambar/Chutney",
 										"Apple (1)"
 									],
 									"Lunch": [
@@ -12592,13 +12588,13 @@
 										"Butter Roti",
 										"Green Salad"
 									],
-									"Snacks": ["Egg Sandwich"],
+									"Snacks": ["Egg Sandwich / Paneer Bhurji Sandwich"],
 									"Dinner": [
 										"Green Mong Dal (100gm)",
 										"*Kadai Chicken (150gm)*",
 										"Malai Methi Mutter (150gm)",
-										"Aloo Beans n Coconut (100gm)",
-										"Chappathy",
+										"Aloo Beans & Coconut (100gm)",
+										"Chapathi",
 										"Sambar",
 										"Rasam",
 										"Fruit Salad (100gm)"
@@ -12606,7 +12602,7 @@
 								},
 								"Tuesday": {
 									"Breakfast": [
-										"Egg Burjii (150gms)",
+										"Egg Burjii (150gms) / Boiled White Chana (150gm)",
 										"Soya Chunks (100gm)",
 										"Ragi Dosa",
 										"Drumstick Sambar",
@@ -12618,7 +12614,7 @@
 										"Palak Paneer (150gm)",
 										"Satured Mix Veg (100gm)",
 										"Green Peas Pulao",
-										"Chappathy",
+										"Chapathi",
 										"Green Moong Sprouts"
 									],
 									"Snacks": ["Corn & Carrot Chaat"],
@@ -12627,25 +12623,25 @@
 										"*Tawa Fish Fry (150gm)*",
 										"Mix Veg Curry (150gm)",
 										"Carrot Beans Dry (100gm)",
-										"Masala Kulcha",
+										"Masala",
+										"Kulcha",
 										"Sambar",
 										"Rasam",
-										"Seasonal Fruit Juice (250ml)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Wednesday": {
 									"Breakfast": [
-										"Fried Egg (5 Nos Max)",
+										"Fried Egg (5 Nos Max) / Boiled Black Chana (150gm)",
 										"Butter Fried Aloo (100gms)",
-										"Dalia Upma",
-										"Drumstick Sambar",
-										"Ground Nut Chutney",
+										"Oats Upma",
+										"Veg Stew",
 										"Bananas (1)"
 									],
 									"Lunch": [
 										"Dal Lasooni (100gm)",
 										"Mutter Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese Fry Peas (100gm)",
 										"*Egg Briyani*",
 										"Raitha",
 										"Phulka",
@@ -12660,14 +12656,14 @@
 										"Multigrain Roti",
 										"Sambar",
 										"Rasam",
-										"Cut Fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Thursday": {
 									"Breakfast": [
-										"Omlette (5 Nos Max)",
+										"Omlette (5 Nos Max) / Boiled White Chana (150gm)",
 										"Fried Beans (100gms)",
-										"Mix Veg Poha (Carrot & Beans)",
+										"Cut Pongal",
 										"Ground Nut Chutney",
 										"Guava (1)"
 									],
@@ -12682,7 +12678,7 @@
 									"Snacks": ["Moong Sprout Usli"],
 									"Dinner": [
 										"Rajma Dal (100gm)",
-										"*Masala Fried Chicken (150g)*",
+										"*Masala Fried Fish (150g)*",
 										"Kadai Paneer Veg (150gm)",
 										"Mix Veg Dry (100gm)",
 										"Butter Kulcha",
@@ -12693,7 +12689,7 @@
 								},
 								"Friday": {
 									"Breakfast": [
-										"Boiled Egg (5 Nos Max)",
+										"Boiled Egg (5 Nos Max) / Boiled Black Chana (150gm)",
 										"Paneer Burji (100gm)",
 										"Semia Bhath",
 										"Coconut Chutney",
@@ -12710,19 +12706,19 @@
 									],
 									"Snacks": ["Chick Peas Sundal"],
 									"Dinner": [
-										"Chikki Wale Dal (100gm)",
+										"Masoor Dal (100gm)",
 										"*Kadai Chicken (150gm)*",
-										"Mutter PaneerCapsi (150gm)",
+										"Mutter Paneer Capsicum (150gm)",
 										"Aloo Bhindi Dry (100gm)",
 										"Methi Chappathy",
 										"Sambar",
 										"Rasam",
-										"Seasonal Fruit Juice (250ml)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Saturday": {
 									"Breakfast": [
-										"Fried Egg (5 Nos Max)",
+										"Fried Egg (5 Nos Max) / Boiled White Chana (150gm)",
 										"Soya Chunks (100gm)",
 										"Set Dosa",
 										"Drumstick Sambar",
@@ -12740,19 +12736,19 @@
 									"Snacks": ["Murmura Masala Bhel Dry"],
 									"Dinner": [
 										"Dal Fry (100gm)",
-										"*Mutton Rajangosh (150gm)*",
+										"*Tawa Fish Fry (150gm)*",
 										"Malai Kofta Curry (150gm)",
 										"Carrot Beans Dry (100gm)",
 										"Phulka",
 										"Sambar",
 										"Rasam",
-										"Cut Fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Sunday": {
 									"Breakfast": [
-										"Egg Burjii (150gm)",
-										"Butter Fried Aloo (100gms)",
+										"Egg Burjii (150gm) / Boiled Black Chana (150gm)",
+										"Tofu Bhurji (100gm)",
 										"Gobi Beetroot Methi Paratha",
 										"Plain Curd",
 										"Mix Veg Pickle",
@@ -12761,22 +12757,22 @@
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Palak Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese fry peas (100gm)",
 										"*Chicken Briyani*",
 										"Raitha",
 										"Phulka",
 										"Sprouts Salad"
 									],
-									"Snacks": ["Aloo Cole Tikki"],
+									"Snacks": ["Roasted Peanuts"],
 									"Dinner": [
 										"Masala Dal Tadka (100gm)",
-										"Soya Chunk Palak Dry (150gm)",
+										"Crum Fried Chicken Dry (150gm)",
 										"Aloo Gobi Achari (150gm)",
 										"Mix Veg Dry (100gm)",
 										"Masala Kulcha",
 										"Sambar",
 										"Rasam",
-										"Cut Fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								}
 							}
@@ -12787,6 +12783,7 @@
 									"Breakfast": [
 										"Boiled Egg (5 Nos Max)",
 										"Paneer Burji (100gm)",
+										"Boiled white chana (100gm)",
 										"Thattu Idly",
 										"Brinjal Sambar",
 										"Kara Chutney",
@@ -12794,19 +12791,19 @@
 									],
 									"Lunch": [
 										"Rajma Dal (100gm)",
-										"*Chicken Masala (150gm)*",
+										"*Chicken Butter Masala (150gm)*",
 										"Pindi Chhole (150gm)",
 										"Brocoli (100gm)",
 										"Peas Paneer Pulao",
 										"Butter Roti",
 										"Green Salad"
 									],
-									"Snacks": ["Egg Sandwich"],
+									"Snacks": ["Egg Sandwich / Paneer Bhurji Sandwich"],
 									"Dinner": [
 										"Green Mong Dal (100gm)",
 										"Bhee Aloo (150gm)",
 										"Aloo Peas Poriyal (100gm)",
-										"Chappathy",
+										"Chapathi",
 										"Sambar",
 										"Rasam",
 										"Seasonal Fruit Juice (250ml)"
@@ -12843,14 +12840,15 @@
 								"Wednesday": {
 									"Breakfast": [
 										"Fried Egg (5 Nos Max)",
+										"Boiled Black Chana (150gm)",
 										"Dal Pakwaan",
 										"Bananas (1)"
 									],
 									"Lunch": [
 										"Arhar Dal (100gm)",
 										"*Chettinad Chicken (150gm)*",
-										"Bhindi Moor Kulambu (150gm)",
-										"Cheese Fri Onion Rings (100gm)",
+										"Bhindi Moor Kuzhambu (150gm)",
+										"Cheese Fry Onion Rings (100gm)",
 										"*Egg Briyani / Veg Briyani*",
 										"Raitha",
 										"Phulka",
@@ -12872,6 +12870,7 @@
 									"Breakfast": [
 										"Omlette (5 Nos Max)",
 										"Fried Beans (100gms)",
+										"Boiled white chana (150gm)",
 										"Idiappam",
 										"Veg Stew",
 										"Guavam (1)"
@@ -12893,20 +12892,21 @@
 										"Butter Kulcha",
 										"Sambar",
 										"Rasam",
-										"Cut Fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Friday": {
 									"Breakfast": [
 										"Boiled Egg (5 Nos Max)",
 										"Paneer Burji (100gm)",
-										"Millet Pulao",
+										"Boiled Black Chana (150gm)",
+										"Millet Upma",
 										"Chutney",
 										"Pomegranate (1)"
 									],
 									"Lunch": [
 										"Chickpea Dal (100gm)",
-										"*Hariali Chicken (150gm)*",
+										"*Hariyali Chicken (150gm)*",
 										"Paneer Stuffed Capsicum (150gm)",
 										"Cauliflower Steamed with Carrots (100gm)",
 										"Mix Veg Briyani",
@@ -12921,8 +12921,9 @@
 										"Aloo Tinde Dry (100gm)",
 										"Jeera Rice",
 										"Ajwain Masala",
-										"Chappathy",
+										"Chapathi",
 										"Assorted Chutneys",
+										"Fruit Salad (100gm)",
 										"Seasonal Fruit Juice (250ml)"
 									]
 								},
@@ -12930,9 +12931,9 @@
 									"Breakfast": [
 										"Fried Egg (5 Nos Max)",
 										"Soya Chunks (100gm)",
-										"Moong Chilla",
+										"Moong dal chilla",
 										"Tamarind Chutney",
-										"Apple (1)"
+										"Cut Apple (1)"
 									],
 									"Lunch": [
 										"Dal Makkni (100gm)",
@@ -12959,6 +12960,7 @@
 									"Breakfast": [
 										"Egg Burjii (150gm)",
 										"Butter Fried Lima Beans (100gms)",
+										"Boiled white chana (150gm)",
 										"Paneer Paratha",
 										"Plain Curd",
 										"Mix Veg Pickle",
@@ -12966,6 +12968,7 @@
 									],
 									"Lunch": [
 										"Moong Dal (100gm)",
+										"Sesasme Chicken Dry (150gm)",
 										"Gobi in Dhania Gravy (150gm)",
 										"Steamed Paneer, Carrot & Peas (100gm)",
 										"*Hyderabadi Dum Chicken Briyani*",
@@ -12973,7 +12976,7 @@
 										"Phulka",
 										"Sprouts Salad"
 									],
-									"Snacks": ["Aloo Cole Tikki"],
+									"Snacks": ["Peanut Chikki"],
 									"Dinner": [
 										"Matar Dal (Thick) (100gm)",
 										"Chhena Dalna (150gm)",
@@ -12981,7 +12984,7 @@
 										"Kulcha",
 										"Sambar",
 										"Tomato Rasam",
-										"Banana Milk Shake (250ml)"
+										"Grape Juice (250ml)"
 									]
 								}
 							}
@@ -12990,10 +12993,10 @@
 							"schedule": {
 								"Monday": {
 									"Breakfast": [
-										"Boiled Egg (5 Nos Max)",
+										"Boiled Egg (5 Nos Max) / Boiled Black Chana (150gm)",
 										"Paneer Burji (100gm)",
-										"Milet Idly Beans",
-										"Sambar/Chutney",
+										"Milet Idly",
+										"Beans Sambar/Chutney",
 										"Apple (1)"
 									],
 									"Lunch": [
@@ -13004,13 +13007,13 @@
 										"Butter Roti",
 										"Green Salad"
 									],
-									"Snacks": ["Egg Sandwich"],
+									"Snacks": ["Egg Sandwich / Paneer Bhurji Sandwich"],
 									"Dinner": [
 										"Green Mong Dal (100gm)",
 										"*Kadai Chicken (150gm)*",
 										"Malai Methi Mutter (150gm)",
-										"Aloo Beans n Coconut (100gm)",
-										"Chappathy",
+										"Aloo Beans & Coconut (100gm)",
+										"Chapathi",
 										"Sambar",
 										"Rasam",
 										"Fruit Salad (100gm)"
@@ -13018,7 +13021,7 @@
 								},
 								"Tuesday": {
 									"Breakfast": [
-										"Egg Burjii (150gms)",
+										"Egg Burjii (150gms) / Boiled White Chana (150gm)",
 										"Soya Chunks (100gm)",
 										"Ragi Dosa",
 										"Drumstick Sambar",
@@ -13030,7 +13033,7 @@
 										"Palak Paneer (150gm)",
 										"Satured Mix Veg (100gm)",
 										"Green Peas Pulao",
-										"Chappathy",
+										"Chapathi",
 										"Green Moong Sprouts"
 									],
 									"Snacks": ["Corn & Carrot Chaat"],
@@ -13039,25 +13042,25 @@
 										"*Tawa Fish Fry (150gm)*",
 										"Mix Veg Curry (150gm)",
 										"Carrot Beans Dry (100gm)",
-										"Masala Kulcha",
+										"Masala",
+										"Kulcha",
 										"Sambar",
 										"Rasam",
-										"Seasonal Fruit Juice (250ml)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Wednesday": {
 									"Breakfast": [
-										"Fried Egg (5 Nos Max)",
+										"Fried Egg (5 Nos Max) / Boiled Black Chana (150gm)",
 										"Butter Fried Aloo (100gms)",
-										"Dalia Upma",
-										"Drumstick Sambar",
-										"Ground Nut Chutney",
+										"Oats Upma",
+										"Veg Stew",
 										"Bananas (1)"
 									],
 									"Lunch": [
 										"Dal Lasooni (100gm)",
 										"Mutter Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese Fry Peas (100gm)",
 										"*Egg Briyani*",
 										"Raitha",
 										"Phulka",
@@ -13072,14 +13075,14 @@
 										"Multigrain Roti",
 										"Sambar",
 										"Rasam",
-										"Cut Fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Thursday": {
 									"Breakfast": [
-										"Omlette (5 Nos Max)",
+										"Omlette (5 Nos Max) / Boiled White Chana (150gm)",
 										"Fried Beans (100gms)",
-										"Mix Veg Poha (Carrot & Beans)",
+										"Moong Dal Kichidi",
 										"Ground Nut Chutney",
 										"Guava (1)"
 									],
@@ -13094,7 +13097,7 @@
 									"Snacks": ["Moong Sprout Usli"],
 									"Dinner": [
 										"Rajma Dal (100gm)",
-										"*Masala Fried Chicken (150g)*",
+										"*Masala Fried Fish (150g)*",
 										"Kadai Paneer Veg (150gm)",
 										"Mix Veg Dry (100gm)",
 										"Butter Kulcha",
@@ -13105,7 +13108,7 @@
 								},
 								"Friday": {
 									"Breakfast": [
-										"Boiled Egg (5 Nos Max)",
+										"Boiled Egg (5 Nos Max) / Boiled Black Chana (150gm)",
 										"Paneer Burji (100gm)",
 										"Semia Bhath",
 										"Coconut Chutney",
@@ -13122,19 +13125,19 @@
 									],
 									"Snacks": ["Chick Peas Sundal"],
 									"Dinner": [
-										"Chikki Wale Dal (100gm)",
+										"Masoor Dal (100gm)",
 										"*Kadai Chicken (150gm)*",
-										"Mutter PaneerCapsi (150gm)",
+										"Mutter Paneer Capsicum (150gm)",
 										"Aloo Bhindi Dry (100gm)",
 										"Methi Chappathy",
 										"Sambar",
 										"Rasam",
-										"Seasonal Fruit Juice (250ml)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Saturday": {
 									"Breakfast": [
-										"Fried Egg (5 Nos Max)",
+										"Fried Egg (5 Nos Max) / Boiled White Chana (150gm)",
 										"Soya Chunks (100gm)",
 										"Set Dosa",
 										"Drumstick Sambar",
@@ -13152,19 +13155,19 @@
 									"Snacks": ["Murmura Masala Bhel Dry"],
 									"Dinner": [
 										"Dal Fry (100gm)",
-										"*Mutton Rajangosh (150gm)*",
+										"*Tawa Fish Fry (150gm)*",
 										"Malai Kofta Curry (150gm)",
 										"Carrot Beans Dry (100gm)",
 										"Phulka",
 										"Sambar",
 										"Rasam",
-										"Cut Fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Sunday": {
 									"Breakfast": [
-										"Egg Burjii (150gm)",
-										"Butter Fried Aloo (100gms)",
+										"Egg Burjii (150gm) / Boiled Black Chana (150gm)",
+										"Tofu Bhurji (100gm)",
 										"Gobi Beetroot Methi Paratha",
 										"Plain Curd",
 										"Mix Veg Pickle",
@@ -13173,22 +13176,22 @@
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Palak Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
+										"Cheese fry peas (100gm)",
 										"*Chicken Briyani*",
 										"Raitha",
 										"Phulka",
 										"Sprouts Salad"
 									],
-									"Snacks": ["Aloo Cole Tikki"],
+									"Snacks": ["Roasted Peanuts"],
 									"Dinner": [
 										"Masala Dal Tadka (100gm)",
-										"Soya Chunk Palak Dry (150gm)",
+										"Crum Fried Chicken Dry (150gm)",
 										"Aloo Gobi Achari (150gm)",
 										"Mix Veg Dry (100gm)",
 										"Masala Kulcha",
 										"Sambar",
 										"Rasam",
-										"Cut Fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								}
 							}
@@ -13199,6 +13202,7 @@
 									"Breakfast": [
 										"Boiled Egg (5 Nos Max)",
 										"Paneer Burji (100gm)",
+										"Boiled white chana (100gm)",
 										"Thattu Idly",
 										"Brinjal Sambar",
 										"Kara Chutney",
@@ -13206,19 +13210,19 @@
 									],
 									"Lunch": [
 										"Rajma Dal (100gm)",
-										"*Chicken Masala (150gm)*",
+										"*Chicken Butter Masala (150gm)*",
 										"Pindi Chhole (150gm)",
 										"Brocoli (100gm)",
 										"Peas Paneer Pulao",
 										"Butter Roti",
 										"Green Salad"
 									],
-									"Snacks": ["Egg Sandwich"],
+									"Snacks": ["Egg Sandwich / Paneer Bhurji Sandwich"],
 									"Dinner": [
 										"Green Mong Dal (100gm)",
 										"Bhee Aloo (150gm)",
 										"Aloo Peas Poriyal (100gm)",
-										"Chappathy",
+										"Chapathi",
 										"Sambar",
 										"Rasam",
 										"Seasonal Fruit Juice (250ml)"
@@ -13255,14 +13259,15 @@
 								"Wednesday": {
 									"Breakfast": [
 										"Fried Egg (5 Nos Max)",
+										"Boiled Black Chana (150gm)",
 										"Dal Pakwaan",
 										"Bananas (1)"
 									],
 									"Lunch": [
 										"Arhar Dal (100gm)",
 										"*Chettinad Chicken (150gm)*",
-										"Bhindi Moor Kulambu (150gm)",
-										"Cheese Fri Onion Rings (100gm)",
+										"Bhindi Moor Kuzhambu (150gm)",
+										"Cheese Fry Onion Rings (100gm)",
 										"*Egg Briyani / Veg Briyani*",
 										"Raitha",
 										"Phulka",
@@ -13284,6 +13289,7 @@
 									"Breakfast": [
 										"Omlette (5 Nos Max)",
 										"Fried Beans (100gms)",
+										"Boiled white chana (150gm)",
 										"Idiappam",
 										"Veg Stew",
 										"Guavam (1)"
@@ -13305,20 +13311,21 @@
 										"Butter Kulcha",
 										"Sambar",
 										"Rasam",
-										"Cut Fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Friday": {
 									"Breakfast": [
 										"Boiled Egg (5 Nos Max)",
 										"Paneer Burji (100gm)",
-										"Millet Pulao",
+										"Boiled Black Chana (150gm)",
+										"Millet Upma",
 										"Chutney",
 										"Pomegranate (1)"
 									],
 									"Lunch": [
 										"Chickpea Dal (100gm)",
-										"*Hariali Chicken (150gm)*",
+										"*Hariyali Chicken (150gm)*",
 										"Paneer Stuffed Capsicum (150gm)",
 										"Cauliflower Steamed with Carrots (100gm)",
 										"Mix Veg Briyani",
@@ -13333,8 +13340,9 @@
 										"Aloo Tinde Dry (100gm)",
 										"Jeera Rice",
 										"Ajwain Masala",
-										"Chappathy",
+										"Chapathi",
 										"Assorted Chutneys",
+										"Fruit Salad (100gm)",
 										"Seasonal Fruit Juice (250ml)"
 									]
 								},
@@ -13342,9 +13350,9 @@
 									"Breakfast": [
 										"Fried Egg (5 Nos Max)",
 										"Soya Chunks (100gm)",
-										"Moong Chilla",
+										"Moong dal chilla",
 										"Tamarind Chutney",
-										"Apple (1)"
+										"Cut Apple (1)"
 									],
 									"Lunch": [
 										"Dal Makkni (100gm)",
@@ -13371,6 +13379,7 @@
 									"Breakfast": [
 										"Egg Burjii (150gm)",
 										"Butter Fried Lima Beans (100gms)",
+										"Boiled white chana (150gm)",
 										"Paneer Paratha",
 										"Plain Curd",
 										"Mix Veg Pickle",
@@ -13378,6 +13387,7 @@
 									],
 									"Lunch": [
 										"Moong Dal (100gm)",
+										"Sesasme Chicken Dry (150gm)",
 										"Gobi in Dhania Gravy (150gm)",
 										"Steamed Paneer, Carrot & Peas (100gm)",
 										"*Hyderabadi Dum Chicken Briyani*",
@@ -13385,7 +13395,7 @@
 										"Phulka",
 										"Sprouts Salad"
 									],
-									"Snacks": ["Aloo Cole Tikki"],
+									"Snacks": ["Peanut Chikki"],
 									"Dinner": [
 										"Matar Dal (Thick) (100gm)",
 										"Chhena Dalna (150gm)",
@@ -13393,7 +13403,7 @@
 										"Kulcha",
 										"Sambar",
 										"Tomato Rasam",
-										"Banana Milk Shake (250ml)"
+										"Grape Juice (250ml)"
 									]
 								}
 							}
@@ -13410,27 +13420,27 @@
 							"schedule": {
 								"Monday": {
 									"Breakfast": [
-										"Boiled Egg (5 Nos Max)",
+										"Boiled Egg (5 Nos Max) / Boiled Black Chana (150gm)",
 										"Paneer Burji (100gm)",
-										"Millet Idly Beans",
-										"Sambar/Chutney",
+										"Milet Idly",
+										"Beans Sambar/Chutney",
 										"Apple (1)"
 									],
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Chili Paneer (150gm)",
-										"Broccoli (100gm)",
+										"Brocoli (100gm)",
 										"Veg Chinese Fried Rice",
 										"Butter Roti",
 										"Green Salad"
 									],
-									"Snacks": ["Paneer Burji Sandwich"],
+									"Snacks": ["Egg Sandwich / Paneer Bhurji Sandwich"],
 									"Dinner": [
 										"Green Mong Dal (100gm)",
-										"Kadai Paneer (150gm)",
+										"*Kadai Paneer (150gm)*",
 										"Malai Methi Mutter (150gm)",
-										"Aloo Beans n Coconut (100gm)",
-										"Chappathy",
+										"Aloo Beans & Coconut (100gm)",
+										"Chapathi",
 										"Sambar",
 										"Rasam",
 										"Fruit Salad (100gm)"
@@ -13438,8 +13448,8 @@
 								},
 								"Tuesday": {
 									"Breakfast": [
-										"Egg Burjii-150gms",
-										"Soya Chunks-100gm",
+										"Egg Burjii (150gms) / Boiled White Chana (150gm)",
+										"Soya Chunks (100gm)",
 										"Ragi Dosa",
 										"Drumstick Sambar",
 										"GroundNut Chutney",
@@ -13450,35 +13460,35 @@
 										"Palak Paneer (150gm)",
 										"Satured Mix Veg (100gm)",
 										"Green Peas Pulao",
-										"Chappathy",
+										"Chapathi",
 										"Green Moong Sprouts"
 									],
 									"Snacks": ["Corn & Carrot Chaat"],
 									"Dinner": [
 										"Dal Makkni (100gm)",
-										"Mushroom Fry (150gm)",
+										"*Mushroom Fry (150gm)*",
 										"Mix Veg Curry (150gm)",
 										"Carrot Beans Dry (100gm)",
-										"Masala Kulcha",
+										"Masala",
+										"Kulcha",
 										"Sambar",
 										"Rasam",
-										"Seasonal Fruit Juice-250ml"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Wednesday": {
 									"Breakfast": [
-										"Fried Egg (5 Nos Max)",
-										"Butter Fried Aloo-100gms",
-										"Dalia Upma",
-										"Drumstick Sambar",
-										"Ground Nut Chutney",
+										"Fried Egg (5 Nos Max) / Boiled Black Chana (150gm)",
+										"Butter Fried Aloo (100gms)",
+										"Oats Upma",
+										"Veg Stew",
 										"Bananas (1)"
 									],
 									"Lunch": [
 										"Dal Lasooni (100gm)",
 										"Mutter Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
-										"Veg Biryani",
+										"Cheese fry peas (100gm)",
+										"*Veg Briyani*",
 										"Raitha",
 										"Phulka",
 										"Mix Salad"
@@ -13486,20 +13496,20 @@
 									"Snacks": ["Boiled Sweet Potato"],
 									"Dinner": [
 										"Moong Dal Tadka (100gm)",
-										"Paneer 65 (150gm)",
+										"*Paneer 65 (150gm)*",
 										"Malai Methi Mutter (150gm)",
 										"Aloo Capsicum Dry (100gm)",
 										"Multigrain Roti",
 										"Sambar",
 										"Rasam",
-										"Cut Fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Thursday": {
 									"Breakfast": [
-										"Omlette (5 Nos Max)",
-										"Fried Beans-100gms",
-										"Mix Veg Poha (Carrot & Beans)",
+										"Omlette (5 Nos Max) / Boiled White Chana (150gm)",
+										"Fried Beans (100gms)",
+										"Cut Pongal",
 										"Ground Nut Chutney",
 										"Guava (1)"
 									],
@@ -13514,7 +13524,7 @@
 									"Snacks": ["Moong Sprout Usli"],
 									"Dinner": [
 										"Rajma Dal (100gm)",
-										"Mushroom Pep Fry (150g)",
+										"*Mushroom Pepper Fry (150g)*",
 										"Kadai Paneer Veg (150gm)",
 										"Mix Veg Dry (100gm)",
 										"Butter Kulcha",
@@ -13525,8 +13535,8 @@
 								},
 								"Friday": {
 									"Breakfast": [
-										"Boiled Egg (5 Nos Max)",
-										"Paneer Burji-100gm",
+										"Boiled Egg (5 Nos Max) / Boiled Black Chana (150gm)",
+										"Paneer Burji (100gm)",
 										"Semia Bhath",
 										"Coconut Chutney",
 										"Pomegranate (1)"
@@ -13534,28 +13544,28 @@
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Kadai Paneer (150gm)",
-										"Broccoli (100gm)",
-										"Mix Veg Biryani",
-										"Raitha",
+										"Brocoli (100gm)",
+										"Mix Veg Briyani",
+										"Raith",
 										"Butter Roti",
 										"Tossed Salad"
 									],
 									"Snacks": ["Chick Peas Sundal"],
 									"Dinner": [
-										"Chikki Wale Dal (100gm)",
-										"Kadai Paneer (150gm)",
-										"Mutter PaneerCapsi (150gm)",
+										"Masoor Dal (100gm)",
+										"*Kadai Paneer (150gm)*",
+										"Mutter Paneer Capsicum (150gm)",
 										"Aloo Bhindi Dry (100gm)",
 										"Methi Chappathy",
 										"Sambar",
 										"Rasam",
-										"Seasonal Fruit juice - 250ml"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Saturday": {
 									"Breakfast": [
-										"Fried Egg (5 Nos Max)",
-										"Soya Chunks-100gm",
+										"Fried Egg (5 Nos Max) / Boiled White Chana (150gm)",
+										"Soya Chunks (100gm)",
 										"Set Dosa",
 										"Drumstick Sambar",
 										"Ash Gourd Chutney",
@@ -13572,34 +13582,34 @@
 									"Snacks": ["Murmura Masala Bhel Dry"],
 									"Dinner": [
 										"Dal Fry (100gm)",
-										"Tofu Pep.Fry (150gm)",
+										"*Tofu Pepper Fry (150gm)*",
 										"Malai Kofta Curry (150gm)",
 										"Carrot Beans Dry (100gm)",
 										"Phulka",
 										"Sambar",
 										"Rasam",
-										"Cut-fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Sunday": {
 									"Breakfast": [
-										"Egg Burjii-150gm",
-										"Butter Fried Aloo-100gms",
+										"Egg Burjii (150gm) / Boiled Black Chana (150gm)",
+										"Tofu Bhurji (100gm)",
 										"Gobi Beetroot Methi Paratha",
 										"Plain Curd",
-										"Mix Veg.Pickle",
+										"Mix Veg Pickle",
 										"Orange (1)"
 									],
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Palak Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
-										"Paneer Veg Biryani",
+										"Cheese fry peas (100gm)",
+										"*Paneer Veg Briyani*",
 										"Raitha",
 										"Phulka",
 										"Sprouts Salad"
 									],
-									"Snacks": ["Aloo Cole Tikki"],
+									"Snacks": ["Roasted Peanuts"],
 									"Dinner": [
 										"Masala Dal Tadka (100gm)",
 										"Soya Chunk Palak Dry (150gm)",
@@ -13608,7 +13618,7 @@
 										"Masala Kulcha",
 										"Sambar",
 										"Rasam",
-										"Cut fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								}
 							}
@@ -13619,6 +13629,7 @@
 									"Breakfast": [
 										"Boiled Egg (5 Nos Max)",
 										"Paneer Burji (100gm)",
+										"Boiled white chana (100gm)",
 										"Thattu Idly",
 										"Brinjal Sambar",
 										"Kara Chutney",
@@ -13626,19 +13637,19 @@
 									],
 									"Lunch": [
 										"Rajma Dal (100gm)",
-										"Paneer Butter Masala (150gm)",
+										"*Paneer Butter Masala (150gm)*",
 										"Pindi Chhole (150gm)",
 										"Brocoli (100gm)",
 										"Peas Paneer Pulao",
 										"Butter Roti",
 										"Green Salad"
 									],
-									"Snacks": ["Paneer Burji Sandwich"],
+									"Snacks": ["Egg Sandwich / Paneer Bhurji Sandwich"],
 									"Dinner": [
 										"Green Mong Dal (100gm)",
 										"Bhee Aloo (150gm)",
 										"Aloo Peas Poriyal (100gm)",
-										"Chappathy",
+										"Chapathi",
 										"Sambar",
 										"Rasam",
 										"Seasonal Fruit Juice (250ml)"
@@ -13649,20 +13660,20 @@
 										"Egg Burjii (150gms)",
 										"Soya Chunks (100gm)",
 										"Rawa Dosa",
-										"Drumstk Sambar",
+										"Drumstick Sambar",
 										"GroundNut Chutney",
 										"Orange (1)"
 									],
 									"Lunch": [
 										"Pancharatna Dal (100gm)",
-										"Mushroom-dopyaza (150gm)",
+										"*Mushroom Dopyaza (150gm)*",
 										"Sindhi Kadhi (150gm)",
 										"Beans Poriyal (100gm)",
 										"Steamed Rice",
 										"Doda Roti",
 										"Green Moong Sprouts"
 									],
-									"Snacks": ["Sweet Corn (steamed)"],
+									"Snacks": ["Sweet Corn (Steamed)"],
 									"Dinner": [
 										"Dal Makkni (100gm)",
 										"Palak Paneer (150gm)",
@@ -13675,15 +13686,16 @@
 								"Wednesday": {
 									"Breakfast": [
 										"Fried Egg (5 Nos Max)",
+										"Boiled Black Chana (150gm)",
 										"Dal Pakwaan",
 										"Bananas (1)"
 									],
 									"Lunch": [
 										"Arhar Dal (100gm)",
-										"Achari Paneer (150gm)",
-										"Bhindi Moor Kulambu (150gm)",
-										"Cheese Fri Onion Rings (100gm)",
-										"Veg Biryani",
+										"*Achari Paneer (150gm)*",
+										"Bhindi Moor Kuzhambu (150gm)",
+										"Cheese Fry Onion Rings (100gm)",
+										"*Egg Briyani / Veg Briyani*",
 										"Raitha",
 										"Phulka",
 										"Mix Salad"
@@ -13704,15 +13716,16 @@
 									"Breakfast": [
 										"Omlette (5 Nos Max)",
 										"Fried Beans (100gms)",
+										"Boiled white chana (150gm)",
 										"Idiappam",
 										"Veg Stew",
 										"Guavam (1)"
 									],
 									"Lunch": [
 										"Masoor Dal (100gm)",
-										"Ginger Garlic Paneer (150gm)",
+										"*Ginger Garlic Paneer (150gm)*",
 										"Shahi Paneer (150gm)",
-										"Mushroom 65 (100gm)",
+										"Mushroom (65-100gm)",
 										"Jeera Butter Rice",
 										"Phulka",
 										"Mix Sprouts Salad"
@@ -13725,23 +13738,24 @@
 										"Butter Kulcha",
 										"Sambar",
 										"Rasam",
-										"Cut fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Friday": {
 									"Breakfast": [
 										"Boiled Egg (5 Nos Max)",
 										"Paneer Burji (100gm)",
-										"Millet Pulao",
+										"Boiled Black Chana (150gm)",
+										"Millet Upma",
 										"Chutney",
 										"Pomegranate (1)"
 									],
 									"Lunch": [
 										"Chickpea Dal (100gm)",
-										"Hariali Paneer (150gm)",
+										"*Hariyali Paneer (150gm)*",
 										"Paneer Stuffed Capsicum (150gm)",
 										"Cauliflower Steamed with Carrots (100gm)",
-										"Mix Veg Biryani",
+										"Mix Veg Briyani",
 										"Raitha",
 										"Butter Roti",
 										"Tossed Salad"
@@ -13753,8 +13767,9 @@
 										"Aloo Tinde Dry (100gm)",
 										"Jeera Rice",
 										"Ajwain Masala",
-										"Chappathy",
+										"Chapathi",
 										"Assorted Chutneys",
+										"Fruit Salad (100gm)",
 										"Seasonal Fruit Juice (250ml)"
 									]
 								},
@@ -13762,24 +13777,24 @@
 									"Breakfast": [
 										"Fried Egg (5 Nos Max)",
 										"Soya Chunks (100gm)",
-										"Moong Chilla",
+										"Moong dal chilla",
 										"Tamarind Chutney",
-										"Apple (1)"
+										"Cut Apple (1)"
 									],
 									"Lunch": [
 										"Dal Makkni (100gm)",
-										"Light Gravy - Tofu Ginger Chilli Fry (150gm)",
+										"*Light Gravy Tofu Ginger chilli fry (150gm)*",
 										"Raw Jackfruit Kofta Curry (150gm)",
 										"Mixed Saag (100gm)",
 										"Steamed Rice",
 										"Phulka",
 										"Mix Salad"
 									],
-									"Snacks": ["Murmura Masla Bhel Dry"],
+									"Snacks": ["Murmura Masala Bhel Dry"],
 									"Dinner": [
 										"Dal Fry (100gm)",
 										"Kaju Curry (150gm)",
-										"Carrot Capsicum Paneer Dry Fry (100gm)",
+										"Carrot Capsicum Paneer Dry Fry (100gms)",
 										"Ghee Rice",
 										"Phulka",
 										"Sambar",
@@ -13791,6 +13806,7 @@
 									"Breakfast": [
 										"Egg Burjii (150gm)",
 										"Butter Fried Lima Beans (100gms)",
+										"Boiled white chana (150gm)",
 										"Paneer Paratha",
 										"Plain Curd",
 										"Mix Veg Pickle",
@@ -13798,14 +13814,15 @@
 									],
 									"Lunch": [
 										"Moong Dal (100gm)",
+										"Sesasme Soya chunk Dry (150gm)",
 										"Gobi in Dhania Gravy (150gm)",
 										"Steamed Paneer, Carrot & Peas (100gm)",
-										"Hyderabadi Dum Paneer Biryani",
+										"*Hyderabadi Dum Paneer Briyani*",
 										"Raitha",
 										"Phulka",
 										"Sprouts Salad"
 									],
-									"Snacks": ["Aloo Cole Tikki"],
+									"Snacks": ["Peanut Chikki"],
 									"Dinner": [
 										"Matar Dal (Thick) (100gm)",
 										"Chhena Dalna (150gm)",
@@ -13813,7 +13830,7 @@
 										"Kulcha",
 										"Sambar",
 										"Tomato Rasam",
-										"Banana Milk Shake (250ml)"
+										"Grape Juice (250ml)"
 									]
 								}
 							}
@@ -13822,27 +13839,27 @@
 							"schedule": {
 								"Monday": {
 									"Breakfast": [
-										"Boiled Egg (5 Nos Max)",
+										"Boiled Egg (5 Nos Max) / Boiled Black Chana (150gm)",
 										"Paneer Burji (100gm)",
-										"Millet Idly Beans",
-										"Sambar/Chutney",
+										"Milet Idly",
+										"Beans Sambar/Chutney",
 										"Apple (1)"
 									],
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Chili Paneer (150gm)",
-										"Broccoli (100gm)",
+										"Brocoli (100gm)",
 										"Veg Chinese Fried Rice",
 										"Butter Roti",
 										"Green Salad"
 									],
-									"Snacks": ["Paneer Burji Sandwich"],
+									"Snacks": ["Egg Sandwich / Paneer Bhurji Sandwich"],
 									"Dinner": [
 										"Green Mong Dal (100gm)",
-										"Kadai Paneer (150gm)",
+										"*Kadai Paneer (150gm)*",
 										"Malai Methi Mutter (150gm)",
-										"Aloo Beans n Coconut (100gm)",
-										"Chappathy",
+										"Aloo Beans & Coconut (100gm)",
+										"Chapathi",
 										"Sambar",
 										"Rasam",
 										"Fruit Salad (100gm)"
@@ -13850,8 +13867,8 @@
 								},
 								"Tuesday": {
 									"Breakfast": [
-										"Egg Burjii-150gms",
-										"Soya Chunks-100gm",
+										"Egg Burjii (150gms) / Boiled White Chana (150gm)",
+										"Soya Chunks (100gm)",
 										"Ragi Dosa",
 										"Drumstick Sambar",
 										"GroundNut Chutney",
@@ -13862,35 +13879,35 @@
 										"Palak Paneer (150gm)",
 										"Satured Mix Veg (100gm)",
 										"Green Peas Pulao",
-										"Chappathy",
+										"Chapathi",
 										"Green Moong Sprouts"
 									],
 									"Snacks": ["Corn & Carrot Chaat"],
 									"Dinner": [
 										"Dal Makkni (100gm)",
-										"Mushroom Fry (150gm)",
+										"*Mushroom Fry (150gm)*",
 										"Mix Veg Curry (150gm)",
 										"Carrot Beans Dry (100gm)",
-										"Masala Kulcha",
+										"Masala",
+										"Kulcha",
 										"Sambar",
 										"Rasam",
-										"Seasonal Fruit Juice-250ml"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Wednesday": {
 									"Breakfast": [
-										"Fried Egg (5 Nos Max)",
-										"Butter Fried Aloo-100gms",
-										"Dalia Upma",
-										"Drumstick Sambar",
-										"Ground Nut Chutney",
+										"Fried Egg (5 Nos Max) / Boiled Black Chana (150gm)",
+										"Butter Fried Aloo (100gms)",
+										"Oats Upma",
+										"Veg Stew",
 										"Bananas (1)"
 									],
 									"Lunch": [
 										"Dal Lasooni (100gm)",
 										"Mutter Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
-										"Veg Biryani",
+										"Cheese fry peas (100gm)",
+										"*Veg Briyani*",
 										"Raitha",
 										"Phulka",
 										"Mix Salad"
@@ -13898,20 +13915,20 @@
 									"Snacks": ["Boiled Sweet Potato"],
 									"Dinner": [
 										"Moong Dal Tadka (100gm)",
-										"Paneer 65 (150gm)",
+										"*Paneer 65 (150gm)*",
 										"Malai Methi Mutter (150gm)",
 										"Aloo Capsicum Dry (100gm)",
 										"Multigrain Roti",
 										"Sambar",
 										"Rasam",
-										"Cut Fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Thursday": {
 									"Breakfast": [
-										"Omlette (5 Nos Max)",
-										"Fried Beans-100gms",
-										"Mix Veg Poha (Carrot & Beans)",
+										"Omlette (5 Nos Max) / Boiled White Chana (150gm)",
+										"Fried Beans (100gms)",
+										"Moong Dal Khichidi",
 										"Ground Nut Chutney",
 										"Guava (1)"
 									],
@@ -13926,7 +13943,7 @@
 									"Snacks": ["Moong Sprout Usli"],
 									"Dinner": [
 										"Rajma Dal (100gm)",
-										"Mushroom Pep Fry (150g)",
+										"*Mushroom Pepper Fry (150g)*",
 										"Kadai Paneer Veg (150gm)",
 										"Mix Veg Dry (100gm)",
 										"Butter Kulcha",
@@ -13937,8 +13954,8 @@
 								},
 								"Friday": {
 									"Breakfast": [
-										"Boiled Egg (5 Nos Max)",
-										"Paneer Burji-100gm",
+										"Boiled Egg (5 Nos Max) / Boiled Black Chana (150gm)",
+										"Paneer Burji (100gm)",
 										"Semia Bhath",
 										"Coconut Chutney",
 										"Pomegranate (1)"
@@ -13946,28 +13963,28 @@
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Kadai Paneer (150gm)",
-										"Broccoli (100gm)",
-										"Mix Veg Biryani",
-										"Raitha",
+										"Brocoli (100gm)",
+										"Mix Veg Briyani",
+										"Raith",
 										"Butter Roti",
 										"Tossed Salad"
 									],
 									"Snacks": ["Chick Peas Sundal"],
 									"Dinner": [
-										"Chikki Wale Dal (100gm)",
-										"Kadai Paneer (150gm)",
-										"Mutter PaneerCapsi (150gm)",
+										"Masoor Dal (100gm)",
+										"*Kadai Paneer (150gm)*",
+										"Mutter Paneer Capsicum (150gm)",
 										"Aloo Bhindi Dry (100gm)",
 										"Methi Chappathy",
 										"Sambar",
 										"Rasam",
-										"Seasonal Fruit juice - 250ml"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Saturday": {
 									"Breakfast": [
-										"Fried Egg (5 Nos Max)",
-										"Soya Chunks-100gm",
+										"Fried Egg (5 Nos Max) / Boiled White Chana (150gm)",
+										"Soya Chunks (100gm)",
 										"Set Dosa",
 										"Drumstick Sambar",
 										"Ash Gourd Chutney",
@@ -13984,34 +14001,34 @@
 									"Snacks": ["Murmura Masala Bhel Dry"],
 									"Dinner": [
 										"Dal Fry (100gm)",
-										"Tofu Pep.Fry (150gm)",
+										"*Tofu Pepper Fry (150gm)*",
 										"Malai Kofta Curry (150gm)",
 										"Carrot Beans Dry (100gm)",
 										"Phulka",
 										"Sambar",
 										"Rasam",
-										"Cut-fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Sunday": {
 									"Breakfast": [
-										"Egg Burjii-150gm",
-										"Butter Fried Aloo-100gms",
+										"Egg Burjii (150gm) / Boiled Black Chana (150gm)",
+										"Tofu Bhurji (100gm)",
 										"Gobi Beetroot Methi Paratha",
 										"Plain Curd",
-										"Mix Veg.Pickle",
+										"Mix Veg Pickle",
 										"Orange (1)"
 									],
 									"Lunch": [
 										"Rajma Dal (100gm)",
 										"Palak Paneer (150gm)",
-										"Cheese Fri Peas (100gm)",
-										"Paneer Veg Biryani",
+										"Cheese fry peas (100gm)",
+										"*Paneer Veg Briyani*",
 										"Raitha",
 										"Phulka",
 										"Sprouts Salad"
 									],
-									"Snacks": ["Aloo Cole Tikki"],
+									"Snacks": ["Roasted Peanuts"],
 									"Dinner": [
 										"Masala Dal Tadka (100gm)",
 										"Soya Chunk Palak Dry (150gm)",
@@ -14020,7 +14037,7 @@
 										"Masala Kulcha",
 										"Sambar",
 										"Rasam",
-										"Cut fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								}
 							}
@@ -14031,6 +14048,7 @@
 									"Breakfast": [
 										"Boiled Egg (5 Nos Max)",
 										"Paneer Burji (100gm)",
+										"Boiled white chana (100gm)",
 										"Thattu Idly",
 										"Brinjal Sambar",
 										"Kara Chutney",
@@ -14038,19 +14056,19 @@
 									],
 									"Lunch": [
 										"Rajma Dal (100gm)",
-										"Paneer Butter Masala (150gm)",
+										"*Paneer Butter Masala (150gm)*",
 										"Pindi Chhole (150gm)",
 										"Brocoli (100gm)",
 										"Peas Paneer Pulao",
 										"Butter Roti",
 										"Green Salad"
 									],
-									"Snacks": ["Paneer Burji Sandwich"],
+									"Snacks": ["Egg Sandwich / Paneer Bhurji Sandwich"],
 									"Dinner": [
 										"Green Mong Dal (100gm)",
 										"Bhee Aloo (150gm)",
 										"Aloo Peas Poriyal (100gm)",
-										"Chappathy",
+										"Chapathi",
 										"Sambar",
 										"Rasam",
 										"Seasonal Fruit Juice (250ml)"
@@ -14061,20 +14079,20 @@
 										"Egg Burjii (150gms)",
 										"Soya Chunks (100gm)",
 										"Rawa Dosa",
-										"Drumstk Sambar",
+										"Drumstick Sambar",
 										"GroundNut Chutney",
 										"Orange (1)"
 									],
 									"Lunch": [
 										"Pancharatna Dal (100gm)",
-										"Mushroom-dopyaza (150gm)",
+										"*Mushroom Dopyaza (150gm)*",
 										"Sindhi Kadhi (150gm)",
 										"Beans Poriyal (100gm)",
 										"Steamed Rice",
 										"Doda Roti",
 										"Green Moong Sprouts"
 									],
-									"Snacks": ["Sweet Corn (steamed)"],
+									"Snacks": ["Sweet Corn (Steamed)"],
 									"Dinner": [
 										"Dal Makkni (100gm)",
 										"Palak Paneer (150gm)",
@@ -14087,15 +14105,16 @@
 								"Wednesday": {
 									"Breakfast": [
 										"Fried Egg (5 Nos Max)",
+										"Boiled Black Chana (150gm)",
 										"Dal Pakwaan",
 										"Bananas (1)"
 									],
 									"Lunch": [
 										"Arhar Dal (100gm)",
-										"Achari Paneer (150gm)",
-										"Bhindi Moor Kulambu (150gm)",
-										"Cheese Fri Onion Rings (100gm)",
-										"Veg Biryani",
+										"*Achari Paneer (150gm)*",
+										"Bhindi Moor Kuzhambu (150gm)",
+										"Cheese Fry Onion Rings (100gm)",
+										"*Egg Briyani / Veg Briyani*",
 										"Raitha",
 										"Phulka",
 										"Mix Salad"
@@ -14116,15 +14135,16 @@
 									"Breakfast": [
 										"Omlette (5 Nos Max)",
 										"Fried Beans (100gms)",
+										"Boiled white chana (150gm)",
 										"Idiappam",
 										"Veg Stew",
 										"Guavam (1)"
 									],
 									"Lunch": [
 										"Masoor Dal (100gm)",
-										"Ginger Garlic Paneer (150gm)",
+										"*Ginger Garlic Paneer (150gm)*",
 										"Shahi Paneer (150gm)",
-										"Mushroom 65 (100gm)",
+										"Mushroom (65-100gm)",
 										"Jeera Butter Rice",
 										"Phulka",
 										"Mix Sprouts Salad"
@@ -14137,23 +14157,24 @@
 										"Butter Kulcha",
 										"Sambar",
 										"Rasam",
-										"Cut fruit (Papaya, Watermelon, Muskmelon)"
+										"Fruit Salad (100gm)"
 									]
 								},
 								"Friday": {
 									"Breakfast": [
 										"Boiled Egg (5 Nos Max)",
 										"Paneer Burji (100gm)",
-										"Millet Pulao",
+										"Boiled Black Chana (150gm)",
+										"Millet Upma",
 										"Chutney",
 										"Pomegranate (1)"
 									],
 									"Lunch": [
 										"Chickpea Dal (100gm)",
-										"Hariali Paneer (150gm)",
+										"*Hariyali Paneer (150gm)*",
 										"Paneer Stuffed Capsicum (150gm)",
 										"Cauliflower Steamed with Carrots (100gm)",
-										"Mix Veg Biryani",
+										"Mix Veg Briyani",
 										"Raitha",
 										"Butter Roti",
 										"Tossed Salad"
@@ -14165,8 +14186,9 @@
 										"Aloo Tinde Dry (100gm)",
 										"Jeera Rice",
 										"Ajwain Masala",
-										"Chappathy",
+										"Chapathi",
 										"Assorted Chutneys",
+										"Fruit Salad (100gm)",
 										"Seasonal Fruit Juice (250ml)"
 									]
 								},
@@ -14174,24 +14196,24 @@
 									"Breakfast": [
 										"Fried Egg (5 Nos Max)",
 										"Soya Chunks (100gm)",
-										"Moong Chilla",
+										"Moong dal chilla",
 										"Tamarind Chutney",
-										"Apple (1)"
+										"Cut Apple (1)"
 									],
 									"Lunch": [
 										"Dal Makkni (100gm)",
-										"Light Gravy - Tofu Ginger Chilli Fry (150gm)",
+										"*Light Gravy Tofu Ginger chilli fry (150gm)*",
 										"Raw Jackfruit Kofta Curry (150gm)",
 										"Mixed Saag (100gm)",
 										"Steamed Rice",
 										"Phulka",
 										"Mix Salad"
 									],
-									"Snacks": ["Murmura Masla Bhel Dry"],
+									"Snacks": ["Murmura Masala Bhel Dry"],
 									"Dinner": [
 										"Dal Fry (100gm)",
 										"Kaju Curry (150gm)",
-										"Carrot Capsicum Paneer Dry Fry (100gm)",
+										"Carrot Capsicum Paneer Dry Fry (100gms)",
 										"Ghee Rice",
 										"Phulka",
 										"Sambar",
@@ -14203,6 +14225,7 @@
 									"Breakfast": [
 										"Egg Burjii (150gm)",
 										"Butter Fried Lima Beans (100gms)",
+										"Boiled white chana (150gm)",
 										"Paneer Paratha",
 										"Plain Curd",
 										"Mix Veg Pickle",
@@ -14210,14 +14233,15 @@
 									],
 									"Lunch": [
 										"Moong Dal (100gm)",
+										"Sesasme Soya chunk Dry (150gm)",
 										"Gobi in Dhania Gravy (150gm)",
 										"Steamed Paneer, Carrot & Peas (100gm)",
-										"Hyderabadi Dum Paneer Biryani",
+										"*Hyderabadi Dum Paneer Briyani*",
 										"Raitha",
 										"Phulka",
 										"Sprouts Salad"
 									],
-									"Snacks": ["Aloo Cole Tikki"],
+									"Snacks": ["Peanut Chikki"],
 									"Dinner": [
 										"Matar Dal (Thick) (100gm)",
 										"Chhena Dalna (150gm)",
@@ -14225,7 +14249,7 @@
 										"Kulcha",
 										"Sambar",
 										"Tomato Rasam",
-										"Banana Milk Shake (250ml)"
+										"Grape Juice (250ml)"
 									]
 								}
 							}
