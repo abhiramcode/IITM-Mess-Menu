@@ -8,8 +8,14 @@ const DonateModal = ({ isOpen, onClose }) => {
 	if (!isOpen) return null;
 
 	return (
-		<div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-fade-in">
-			<div className="bg-bg border border-border rounded-xl shadow-2xl w-full max-w-md mx-4 relative flex flex-col">
+		<div 
+			className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-fade-in"
+			onClick={onClose}
+		>
+			<div 
+				className="bg-bg border border-border rounded-xl shadow-2xl w-full max-w-md mx-4 relative flex flex-col"
+				onClick={(e) => e.stopPropagation()}
+			>
 				<div className="p-6 border-b border-border flex-shrink-0">
 					<button
 						onClick={onClose}

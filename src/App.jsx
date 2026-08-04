@@ -22,11 +22,17 @@ import TodaysMenu from "./components/TodaysMenu";
 import UpdatePrompt from "./components/UpdatePrompt";
 import { MigrationApp } from "./components/MigrationApp";
 import DonateModal from "./components/DonateModal";
-import { Heart } from "lucide-react";
+import FeedbackModal from "./components/FeedbackModal";
+import FloatingMenu from "./components/FloatingMenu";
 
 function App() {
 	const [modalToShow, setModalToShow] = useState(null); // 'initialSetup', 'newCyclePrompt', 'confirmNewCycle', 'settings'
 	const [prefilledPreference, setPrefilledPreference] = useState(null);
+
+	// Feature Flags for Floating Menu
+	const ENABLE_FLOATING_MENU = true;
+	const SHOW_DONATE_BUTTON = true;
+	const SHOW_FEEDBACK_BUTTON = true;
 
 	// This effect runs once on startup to determine if a modal should be shown.
 	useMemo(() => {
@@ -70,6 +76,7 @@ function App() {
 
 	const openSettingsModal = () => setModalToShow("settings");
 	const openDonateModal = () => setModalToShow("donate");
+	const openFeedbackModal = () => setModalToShow("feedback");
 	const closeAllModals = () => setModalToShow(null);
 
 	const skeletonThemeLight = {
@@ -111,6 +118,10 @@ function App() {
 					<DonateModal isOpen={true} onClose={closeAllModals} />
 				)}
 
+				{modalToShow === "feedback" && (
+					<FeedbackModal isOpen={true} onClose={closeAllModals} />
+				)}
+
 				<div className="min-h-screen bg-bg font-sans text-fg transition-colors">
 					<Navbar onOpenSettings={openSettingsModal} />
 					<main>
@@ -130,14 +141,14 @@ function App() {
 					</main>
 					<Footer />
 
-					{/* Floating Donate Button */}
-					<button
-						onClick={openDonateModal}
-						className="fixed bottom-6 right-6 p-4 bg-primary text-white rounded-full shadow-xl hover:shadow-2xl hover:scale-110 transition-transform z-40 flex items-center justify-center group"
-						aria-label="Support Us"
-					>
-						<Heart className="group-hover:animate-pulse" size={24} fill="currentColor" />
-					</button>
+					{/* Floating Menu */}
+					<FloatingMenu 
+						onOpenDonate={openDonateModal} 
+						onOpenFeedback={openFeedbackModal}
+						showMenu={ENABLE_FLOATING_MENU}
+						showDonate={SHOW_DONATE_BUTTON}
+						showFeedback={SHOW_FEEDBACK_BUTTON}
+					/>
 				</div>
 
 				<UpdatePrompt />
