@@ -1,5 +1,5 @@
 import { Heart } from "lucide-react";
-import { APP_NAME } from "../api/constants";
+import { APP_NAME, APP_VERSION } from "../api/constants";
 
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
@@ -8,7 +8,7 @@ const Footer = () => {
 		<footer className="border-t border-border mt-6 sm:mt-16 py-6">
 			<div className="container mx-auto px-4 text-center text-muted">
 				<p>
-					&copy; {currentYear} {APP_NAME}. All rights reserved.
+					&copy; {currentYear} {APP_NAME} {APP_VERSION}. All rights reserved.
 				</p>
 				<p className="text-sm mt-1 flex items-center justify-center gap-1.5">
 					Made with
