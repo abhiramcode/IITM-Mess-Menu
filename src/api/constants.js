@@ -1,8 +1,13 @@
 export const APP_NAME = "DigiMess";
+export const APP_VERSION = "v1.1.0";
 
 export const MENUS = [
 	{ value: "South_Veg", label: "South Indian (Veg)" },
 	{ value: "South_Non_Veg", label: "South Indian (Non-Veg)" },
+	{
+		value: "South_Pure_Veg",
+		label: "South Indian (Pure Veg)",
+	},
 	{ value: "North_Veg", label: "North Indian (Veg)" },
 	{ value: "North_Non_Veg", label: "North Indian (Non-Veg)" },
 	{
@@ -15,33 +20,62 @@ export const MENUS = [
 	{ value: "Protein_Non_Veg", label: "Protein (Non-Veg)" },
 ];
 
-// Define the "Week A" starting point for each specific category.
 export const CATEGORY_REFERENCE_DATES = {
-	// The "Old" Messes start from July 28, 2025
-	// South_Veg: "2025-07-28",
-	South_Veg: "2025-07-21",
-	// South_Non_Veg: "2025-07-28",
-	South_Non_Veg: "2025-07-21",
-	// North_Veg: "2025-07-28",
-	North_Veg: "2025-07-21",
-	// North_Non_Veg: "2025-07-28",
-	North_Non_Veg: "2025-07-21",
-	// North_Veg_No_Onion_Garlic: "2025-07-28",
-	North_Veg_No_Onion_Garlic: "2025-07-21",
-	// Unified_Veg: "2025-07-28",
-	Unified_Veg: "2025-07-21",
-	// Unified_Non_Veg: "2025-07-28",
-	Unified_Non_Veg: "2025-07-21",
-
-	// The "New" Protein Messes start Week A on Jan 19, 2026
-	// Protein_Veg: "2026-01-19",
-	Protein_Veg: "2026-01-12",
-	// Protein_Non_Veg: "2026-01-19",
-	Protein_Non_Veg: "2026-01-12",
-
-	// Fallback for safety
-	DEFAULT: "2025-07-21",
-	// DEFAULT: "2025-08-04",
+	South_Veg: {
+		"2025-07-28": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	South_Non_Veg: {
+		"2025-07-28": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	South_Pure_Veg: {
+		"2025-07-28": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	North_Veg: {
+		"2025-07-28": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	North_Non_Veg: {
+		"2025-07-28": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	North_Veg_No_Onion_Garlic: {
+		"2025-07-28": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	Unified_Veg: {
+		"2025-07-28": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	Unified_Non_Veg: {
+		"2025-07-28": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	Protein_Veg: {
+		"2026-01-19": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	Protein_Non_Veg: {
+		"2026-01-19": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	DEFAULT: {
+		"2025-07-28": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
 };
 
 export const WEEKS = [

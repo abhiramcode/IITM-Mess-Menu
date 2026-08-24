@@ -1,5 +1,5 @@
+import { CATEGORY_REFERENCE_DATES, MEALS } from "../api/constants";
 import data from "../database/messMenu.json"; // Import Data Here
-import { MEALS, CATEGORY_REFERENCE_DATES } from "../api/constants";
 
 // --- Configuration ---
 const WEEKS = ["A", "B", "C", "D"];
@@ -68,29 +68,79 @@ export function completeSetup(initialCycleName, initialCategory) {
  * Calculates the Week based on Date AND Category Reference Date.
  */
 export function getWeekForDate(targetDate, category) {
-	// 1. Get the specific start date for this category (e.g. Protein vs Regular)
-	// If category is null/undefined, fallback to DEFAULT
-	const refKey =
-		category && CATEGORY_REFERENCE_DATES[category] ? category : "DEFAULT";
-	const refDateString = CATEGORY_REFERENCE_DATES[refKey];
+	const WEEKS = ["A", "B", "C", "D"];
 
-	const referenceDate = new Date(`${refDateString}T00:00:00+05:30`);
-	const dateToCalculate = new Date(targetDate);
+	// 1. Resolve correct category or fallback
+	const categoryConfig =
+		(category && CATEGORY_REFERENCE_DATES[category]) ||
+		CATEGORY_REFERENCE_DATES.DEFAULT;
 
-	referenceDate.setHours(0, 0, 0, 0);
-	dateToCalculate.setHours(0, 0, 0, 0);
+	if (!category || !CATEGORY_REFERENCE_DATES[category]) {
+		console.warn("Invalid category passed:", category);
+	}
+	if (!categoryConfig) {
+		console.warn("No reference config found, falling back to Week A");
+		return "A";
+	}
 
-	const timeDifference = dateToCalculate.getTime() - referenceDate.getTime();
-	const daysDifference = Math.round(timeDifference / (1000 * 60 * 60 * 24));
+	// 2. Convert reference points into sorted array
+	const checkpoints = Object.entries(categoryConfig)
+		.map(([date, week]) => ({
+			date: new Date(`${date}T00:00:00+05:30`),
+			week,
+		}))
+		.sort((a, b) => a.date - b.date);
 
-	let weeksPassed = Math.floor(daysDifference / 7);
+	const currentDate = new Date(targetDate);
+	currentDate.setHours(0, 0, 0, 0);
 
-	const referenceIndex = WEEKS.indexOf(REFERENCE_WEEK);
-	const newIndex =
-		(((referenceIndex + weeksPassed) % WEEKS.length) + WEEKS.length) %
-		WEEKS.length;
+	// 3. Find latest checkpoint <= targetDate
+	let activeCheckpoint = null;
 
-	return WEEKS[newIndex];
+	for (let i = checkpoints.length - 1; i >= 0; i--) {
+		if (checkpoints[i].date <= currentDate) {
+			activeCheckpoint = checkpoints[i];
+			break;
+		}
+	}
+
+	// 4. If no checkpoint found (very old date), use earliest
+	if (!activeCheckpoint) {
+		activeCheckpoint = checkpoints[0];
+	}
+
+	const baseWeek = activeCheckpoint.week;
+
+	// 5. Snap baseDate back to its Monday so week cycles always reset on Monday
+	const baseDate = new Date(activeCheckpoint.date);
+	const dayOfWeek = baseDate.getDay(); // 0=Sun, 1=Mon, ..., 6=Sat
+	const daysToMonday = dayOfWeek === 0 ? -6 : 1 - dayOfWeek;
+	baseDate.setDate(baseDate.getDate() + daysToMonday);
+
+	// 6. Calculate days difference
+	const diffDays = Math.floor((currentDate - baseDate) / (1000 * 60 * 60 * 24));
+
+	const weeksPassed = Math.floor(diffDays / 7);
+
+	// 7. Rotate from base week
+	const baseIndex = WEEKS.indexOf(baseWeek);
+
+	if (baseIndex === -1) {
+		console.warn("Invalid base week, defaulting to A");
+		return "A";
+	}
+
+	const finalIndex =
+		(((baseIndex + weeksPassed) % WEEKS.length) + WEEKS.length) % WEEKS.length;
+
+	// console.log({
+	// 	category,
+	// 	activeCheckpoint,
+	// 	diffDays,
+	// 	weeksPassed,
+	// });
+
+	return WEEKS[finalIndex];
 }
 
 /**
@@ -147,6 +197,7 @@ export function getUserCategory() {
 		return null;
 	}
 
+	// console.log("User category:", getPreferenceForCycle(currentCycle.name));
 	return getPreferenceForCycle(currentCycle.name);
 }
 

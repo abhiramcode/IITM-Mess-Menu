@@ -109,7 +109,10 @@ const TodaysMenu = ({ onOpenSettings }) => {
 				return;
 			}
 
-			const weekForSelectedDate = getWeekForDate(selectedDate);
+			const weekForSelectedDate = getWeekForDate(
+				selectedDate,
+				preferenceForSelectedCycle,
+			);
 			const categoryToDisplay = preferenceForSelectedCycle;
 			const categoryLabelForDisplay =
 				MENUS.find((m) => m.value === categoryToDisplay)?.label ||
@@ -254,10 +257,10 @@ const TodaysMenu = ({ onOpenSettings }) => {
 						<span className="font-medium">Current Cycle:</span>
 						<span className="ml-2 badge badge-primary">{currentCycle}</span>
 					</div>
-					{/* <div className="mt-1 sm:mt-0">
+					<div className="mt-1 sm:mt-0">
 						<span className="font-medium">Current Week:</span>
 						<span className="ml-2 badge badge-primary">Week {currentWeek}</span>
-					</div> */}
+					</div> 
 					<div className="mt-1 sm:mt-0">
 						<span className="font-medium">Your Mess:</span>
 						<span className="ml-2 badge badge-primary">{menuLabel}</span>

@@ -9,7 +9,7 @@ import {
 	toLocalDateString,
 } from "../utils/weekManager";
 import ApiResponse from "./ApiResponse";
-import { MENUS } from "./constants";
+import { CATEGORY_REFERENCE_DATES, MENUS } from "./constants";
 
 const deepMerge = (base, override) => {
 	const merged = { ...base };
@@ -122,28 +122,30 @@ export const getContextForDate = (date) => {
 				// --- 1. REMAP LOGIC ---
 				if (rule.type === "remap" && rule.targetMeal && rule.sourceDay) {
 					const { targetMeal, sourceDay } = rule;
-					for (const category in menuContent) {
-						// Calculate week specifically for this category's timeline
-						const currentCategoryWeek = getWeekForDate(date, category);
+
+					for (const catKey in menuContent) {
+						const currentCategoryWeek = getWeekForDate(date, catKey);
 
 						const sourceMenu =
-							baseMenuSnapshot[category]?.[currentCategoryWeek]?.schedule?.[
+							baseMenuSnapshot[catKey]?.[currentCategoryWeek]?.schedule?.[
 								sourceDay
 							]?.[targetMeal];
+
 						if (sourceMenu) {
-							if (!menuContent[category][currentCategoryWeek])
-								menuContent[category][currentCategoryWeek] = { schedule: {} };
-							if (
-								!menuContent[category][currentCategoryWeek].schedule[dayOfWeek]
-							)
-								menuContent[category][currentCategoryWeek].schedule[dayOfWeek] =
+							if (!menuContent[catKey][currentCategoryWeek])
+								menuContent[catKey][currentCategoryWeek] = { schedule: {} };
+
+							if (!menuContent[catKey][currentCategoryWeek].schedule[dayOfWeek])
+								menuContent[catKey][currentCategoryWeek].schedule[dayOfWeek] =
 									{};
-							menuContent[category][currentCategoryWeek].schedule[dayOfWeek][
+
+							menuContent[catKey][currentCategoryWeek].schedule[dayOfWeek][
 								targetMeal
 							] = sourceMenu;
 						}
 					}
 				}
+
 				// --- 2. OVERRIDE LOGIC ---
 				else if (rule.type === "override" && rule.targetMeal && rule.items) {
 					const { targetMeal, items } = rule;
@@ -153,33 +155,30 @@ export const getContextForDate = (date) => {
 						? Object.keys(menuContent)
 						: Object.keys(items);
 
-					for (const category of categoriesToProcess) {
-						if (Object.prototype.hasOwnProperty.call(menuContent, category)) {
-							// Calculate week specifically for this category's timeline
-							const currentCategoryWeek = getWeekForDate(date, category);
+					for (const catKey of categoriesToProcess) {
+						if (Object.prototype.hasOwnProperty.call(menuContent, catKey)) {
+							const currentCategoryWeek = getWeekForDate(date, catKey);
 
-							const foodList = items[category] || globalItems;
+							const foodList = items[catKey] || globalItems;
 
 							if (foodList) {
-								if (!menuContent[category][currentCategoryWeek])
-									menuContent[category][currentCategoryWeek] = { schedule: {} };
-								if (
-									!menuContent[category][currentCategoryWeek].schedule[
-										dayOfWeek
-									]
-								)
-									menuContent[category][currentCategoryWeek].schedule[
-										dayOfWeek
-									] = {};
+								if (!menuContent[catKey][currentCategoryWeek])
+									menuContent[catKey][currentCategoryWeek] = { schedule: {} };
 
-								// REPLACE items
-								menuContent[category][currentCategoryWeek].schedule[dayOfWeek][
+								if (
+									!menuContent[catKey][currentCategoryWeek].schedule[dayOfWeek]
+								)
+									menuContent[catKey][currentCategoryWeek].schedule[dayOfWeek] =
+										{};
+
+								menuContent[catKey][currentCategoryWeek].schedule[dayOfWeek][
 									targetMeal
 								] = foodList;
 							}
 						}
 					}
 				}
+
 				// --- 3. ADDON LOGIC ---
 				else if (rule.type === "addon" && rule.targetMeal && rule.items) {
 					const { targetMeal, items } = rule;
@@ -189,32 +188,28 @@ export const getContextForDate = (date) => {
 						? Object.keys(menuContent)
 						: Object.keys(items);
 
-					for (const category of categoriesToProcess) {
-						if (Object.prototype.hasOwnProperty.call(menuContent, category)) {
-							// Calculate week specifically for this category's timeline
-							const currentCategoryWeek = getWeekForDate(date, category);
+					for (const catKey of categoriesToProcess) {
+						if (Object.prototype.hasOwnProperty.call(menuContent, catKey)) {
+							const currentCategoryWeek = getWeekForDate(date, catKey);
 
-							const itemsToAdd = items[category] || globalItems;
+							const itemsToAdd = items[catKey] || globalItems;
 
 							if (itemsToAdd) {
-								if (!menuContent[category][currentCategoryWeek])
-									menuContent[category][currentCategoryWeek] = { schedule: {} };
+								if (!menuContent[catKey][currentCategoryWeek])
+									menuContent[catKey][currentCategoryWeek] = { schedule: {} };
+
 								if (
-									!menuContent[category][currentCategoryWeek].schedule[
-										dayOfWeek
-									]
+									!menuContent[catKey][currentCategoryWeek].schedule[dayOfWeek]
 								)
-									menuContent[category][currentCategoryWeek].schedule[
-										dayOfWeek
-									] = {};
+									menuContent[catKey][currentCategoryWeek].schedule[dayOfWeek] =
+										{};
 
 								const currentItems =
-									menuContent[category][currentCategoryWeek].schedule[
-										dayOfWeek
-									][targetMeal] || [];
+									menuContent[catKey][currentCategoryWeek].schedule[dayOfWeek][
+										targetMeal
+									] || [];
 
-								// APPEND items
-								menuContent[category][currentCategoryWeek].schedule[dayOfWeek][
+								menuContent[catKey][currentCategoryWeek].schedule[dayOfWeek][
 									targetMeal
 								] = [...currentItems, ...itemsToAdd];
 							}
@@ -251,7 +246,6 @@ export const getContextForDate = (date) => {
 		availableCategories: availableCategories,
 	};
 };
-
 export const getContextForCycle = (cycle) => {
 	if (!cycle) return null;
 	const context = getMenuContentForDate(new Date(cycle.endDate));
@@ -287,9 +281,29 @@ export const getAvailableCategoriesForCurrentVersion = () => {
 export const getTodaysMenu = async () => {
 	try {
 		const category = getUserCategory();
+
+		if (!CATEGORY_REFERENCE_DATES[category]) {
+			console.warn("Invalid category, falling back to DEFAULT:", category);
+		}
+
+		// console.log("==== DEBUG TODAY MENU ====");
+		// console.log("Category:", category);
+		// console.log("Week from logic:", week);
+		// console.log("Available weeks:", Object.keys(categoryData));
+		// console.log("Full categoryData:", categoryData);
 		// Fetch week using category to determine if Protein Phase Shift applies
 		const week = getCurrentWeek(category);
 		const day = getCurrentDay();
+
+		// console.log("Selected weekData:", weekData);
+		// console.log("Day:", day);
+		// console.log("Day menu:", weekData?.schedule?.[day]);
+
+		// console.log("Resolved Week:", {
+		// 	category,
+		// 	week,
+		// 	date: getIndianTime(),
+		// });
 
 		if (!category || !week || !day) {
 			throw new Error("User context is not fully set up.");

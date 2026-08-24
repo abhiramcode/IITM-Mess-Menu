@@ -87,7 +87,7 @@ If you'd like to contribute code, here’s how you can get started:
     - Get a copy of the code onto your local machine.
 
     ```sh
-    git clone hhttps://github.com/peddintisonu/IITM-Mess-Menu.git
+    git clone https://github.com/peddintisonu/IITM-Mess-Menu.git
     ```
 
 3.  **Install Dependencies**
