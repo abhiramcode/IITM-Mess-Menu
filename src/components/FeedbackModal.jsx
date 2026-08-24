@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { MessageSquare, X, Send } from "lucide-react";
+import { MESSES } from "../api/constants";
+
 
 const FeedbackModal = ({ isOpen, onClose }) => {
 	const [formData, setFormData] = useState({
@@ -108,15 +110,11 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 											</>
 										) : (
 											<>
-												<option value="A">Neelkesh</option>
-												<option value="B">SGR</option>
-												<option value="C">SRR</option>
-												<option value="D">Firstman</option>
-												<option value="E">RGouras-Himalaya</option>
-												<option value="F">Rassense</option>
-												<option value="G">Prism</option>
-												<option value="H">RGouras-Vindhya</option>
-												<option value="I">FoodSutra</option>
+												{MESSES.map((mess) => (
+													<option key={mess.value} value={mess.value}>
+														{mess.label}
+													</option>
+												))}
 											</>
 										)}
 									</select>

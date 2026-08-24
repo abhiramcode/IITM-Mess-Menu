@@ -31,7 +31,7 @@ function App() {
 
 	// Feature Flags for Floating Menu
 	const ENABLE_FLOATING_MENU = true;
-	const SHOW_DONATE_BUTTON = true;
+	const SHOW_DONATE_BUTTON = false;
 	const SHOW_FEEDBACK_BUTTON = true;
 
 	// This effect runs once on startup to determine if a modal should be shown.

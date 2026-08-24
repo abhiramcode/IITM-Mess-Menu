@@ -18,7 +18,7 @@ export default async function handler(req, res) {
           type, 
           subType, 
           description, 
-          contact 
+          contact
         }),
       }).catch(err => {
         console.error("Splitforms fetch error:", err);
@@ -31,10 +31,35 @@ export default async function handler(req, res) {
     // 2. Submit to Google Sheets
     let googleSheetsPromise = Promise.resolve({ ok: false });
     if (process.env.GOOGLE_SHEETS_URL) {
+      
+      const dateObj = new Date();
+
+      // 1. Format the date to DD-MM-YYYY in IST
+      const date = new Intl.DateTimeFormat('en-GB', { 
+        timeZone: 'Asia/Kolkata',
+        day: '2-digit',
+        month: '2-digit',
+        year: 'numeric'
+      }).format(dateObj).replace(/\//g, '-');
+
+      // 2. Format the time to HH:mm:ss in 24-hour format in IST
+      const time = new Intl.DateTimeFormat('en-GB', { 
+        timeZone: 'Asia/Kolkata', 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        second: '2-digit', 
+        hour12: false 
+      }).format(dateObj);
+
+      const ipAddress = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
+      const country = req.headers['x-vercel-ip-country'] || 'Unknown';
+      const city = req.headers['x-vercel-ip-city'] || 'Unknown';
+      const userAgent = req.headers['user-agent'] || 'Unknown';
+
       googleSheetsPromise = fetch(process.env.GOOGLE_SHEETS_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type, subType, description, contact }),
+        body: JSON.stringify({ date, time, type, subType, description, contact, ipAddress, country, city, userAgent }),
       }).catch(err => {
         console.error("Google Sheets fetch error:", err);
         return { ok: false };
