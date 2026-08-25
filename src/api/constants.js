@@ -1,8 +1,13 @@
 export const APP_NAME = "DigiMess";
+export const APP_VERSION = "v1.1.0";
 
 export const MENUS = [
 	{ value: "South_Veg", label: "South Indian (Veg)" },
 	{ value: "South_Non_Veg", label: "South Indian (Non-Veg)" },
+	{
+		value: "South_Pure_Veg",
+		label: "South Indian (Pure Veg)",
+	},
 	{ value: "North_Veg", label: "North Indian (Veg)" },
 	{ value: "North_Non_Veg", label: "North Indian (Non-Veg)" },
 	{
@@ -22,6 +27,11 @@ export const CATEGORY_REFERENCE_DATES = {
 		"2026-07-27": "A",
 	},
 	South_Non_Veg: {
+		"2025-07-28": "A",
+		"2026-04-01": "A",
+		"2026-07-27": "A",
+	},
+	South_Pure_Veg: {
 		"2025-07-28": "A",
 		"2026-04-01": "A",
 		"2026-07-27": "A",
