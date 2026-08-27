@@ -20,9 +20,11 @@ export default async function handler(req, res) {
           description, 
           contact
         }),
-      }).catch(err => {
-        console.error("Splitforms fetch error:", err);
-        return { ok: false };
+      })
+      .then(res => ({ ok: res.ok, status: res.status }))
+      .catch(err => {
+        console.error("Splitforms fetch network error:", err);
+        return { ok: false, status: "NETWORK_ERROR" };
       });
     } else {
       // console.warn("SPLITFORMS_ACCESS_KEY is not set.");
@@ -59,10 +61,13 @@ export default async function handler(req, res) {
       googleSheetsPromise = fetch(process.env.GOOGLE_SHEETS_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        redirect: "follow",
         body: JSON.stringify({ date, time, type, subType, description, contact, ipAddress, country, city, userAgent }),
-      }).catch(err => {
-        console.error("Google Sheets fetch error:", err);
-        return { ok: false };
+      })
+      .then(res => ({ ok: res.ok, status: res.status }))
+      .catch(err => {
+        console.error("Google Sheets fetch network error:", err);
+        return { ok: false, status: "NETWORK_ERROR" };
       });
     } else {
       // console.warn("GOOGLE_SHEETS_URL is not set.");

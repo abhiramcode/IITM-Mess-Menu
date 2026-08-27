@@ -123,9 +123,14 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 
 							<div className="form-group">
 								<label htmlFor="description" className="form-label">Description</label>
-								<textarea required id="description" name="description" value={formData.description} onChange={handleInputChange} maxLength={200} className="input min-h-[100px] resize-y" placeholder="Please provide details..."></textarea>
-								<div className="text-sm text-gray-500 text-right">
-									{formData.description.length} / 200
+								<textarea required id="description" name="description" value={formData.description} onChange={handleInputChange} minLength={20} maxLength={200} className="input min-h-[100px] resize-y" placeholder="Please provide details..."></textarea>
+								{/* <div className="text-sm text-gray-500 text-right"> */}
+								<div className="text-sm text-gray-500 flex justify-between">
+									{/* {formData.description.length} / 200 */}
+									<span className="text-red-500">
+									{formData.description.length > 0 && formData.description.length < 20 && "Minimum 20 characters required"}
+									</span>
+									<span>{formData.description.length} / 200</span>
 								</div>
 							</div>
 
@@ -135,7 +140,7 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 							</div>
 
 							{status === "error" && (
-								<div className="text-red-500 text-sm mt-2">Failed to submit feedback. Please try again.</div>
+								<div className="text-red-500 text-sm mt-2">Failed to submit feedback. Please try again later.</div>
 							)}
 						</form>
 					)}
