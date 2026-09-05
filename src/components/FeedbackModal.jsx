@@ -5,8 +5,8 @@ import { MESSES } from "../api/constants";
 
 const FeedbackModal = ({ isOpen, onClose }) => {
 	const [formData, setFormData] = useState({
-		type: "Website",
-		subType: "Fix",
+		type: "",
+		subType: "",
 		description: "",
 		contact: "",
 	});
@@ -20,7 +20,8 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 			const newData = { ...prev, [name]: value };
 			// Reset subType if type changes
 			if (name === "type") {
-				newData.subType = value === "Website" ? "Fix" : "A";
+				// newData.subType = value === "Website" ? "Fix" : "A";
+				newData.subType = "";
 			}
 			return newData;
 		});
@@ -43,8 +44,8 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 				onClose();
 				setStatus("idle");
 				setFormData({
-					type: "Website",
-					subType: "Fix",
+					type: "",
+					subType: "",
 					description: "",
 					contact: "",
 				});
@@ -58,7 +59,9 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 	return (
 		<div 
 			className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-fade-in p-4"
-			onClick={onClose}
+			onClick={() => {
+				if (status !== "submitting") onClose();
+			}}
 		>
 			<div 
 				className="bg-bg border border-border rounded-xl shadow-2xl w-full max-w-lg relative flex flex-col max-h-[65vh]"
@@ -66,7 +69,9 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 			>
 				<div className="p-6 border-b border-border flex-shrink-0">
 					<button
-						onClick={onClose}
+						onClick={() => {
+							if (status !== "submitting") onClose();
+						}}
 						className="absolute top-4 right-4 text-muted hover:text-fg transition-colors"
 						aria-label="Close"
 					>
@@ -92,7 +97,8 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 							<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 								<div className="form-group">
 									<label htmlFor="type" className="form-label">Feedback Type</label>
-									<select id="type" name="type" value={formData.type} onChange={handleInputChange} className="input cursor-pointer">
+									<select id="type" name="type" required value={formData.type} onChange={handleInputChange} className="input cursor-pointer">
+										<option value="" disabled>Select Type</option>
 										<option value="Website">Website Related</option>
 										<option value="Mess-Issue">Mess Issue</option>
 										<option value="Mess-Fix">Mess Improvement</option>
@@ -101,14 +107,16 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 
 								<div className="form-group">
 									<label htmlFor="subType" className="form-label">Specific Area</label>
-									<select id="subType" name="subType" value={formData.subType} onChange={handleInputChange} className="input cursor-pointer">
-										{formData.type === "Website" ? (
+									<select id="subType" name="subType" required value={formData.subType} onChange={handleInputChange} className="input cursor-pointer" disabled={!formData.type}>
+										<option value="" disabled>Select Area</option>
+										{formData.type === "Website" && (
 											<>
 												<option value="New">New Feature / Bug Fix</option>
 												<option value="Fix">Incorrect Menu Display</option>
 												<option value="Other">Other</option>
 											</>
-										) : (
+										)}
+										{(formData.type === "Mess-Issue" || formData.type === "Mess-Fix") && (
 											<>
 												{MESSES.map((mess) => (
 													<option key={mess.value} value={mess.value}>
@@ -123,14 +131,14 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 
 							<div className="form-group">
 								<label htmlFor="description" className="form-label">Description</label>
-								<textarea required id="description" name="description" value={formData.description} onChange={handleInputChange} minLength={20} maxLength={200} className="input min-h-[100px] resize-y" placeholder="Please provide details..."></textarea>
+								<textarea required id="description" name="description" value={formData.description} onChange={handleInputChange} minLength={20} maxLength={300} className="input min-h-[100px] resize-y" placeholder="Please provide details..."></textarea>
 								{/* <div className="text-sm text-gray-500 text-right"> */}
 								<div className="text-sm text-gray-500 flex justify-between">
 									{/* {formData.description.length} / 200 */}
 									<span className="text-red-500">
 									{formData.description.length > 0 && formData.description.length < 20 && "Minimum 20 characters required"}
 									</span>
-									<span>{formData.description.length} / 200</span>
+									<span>{formData.description.length} / 300</span>
 								</div>
 							</div>
 
@@ -139,6 +147,11 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 								<input type="text" id="contact" name="contact" value={formData.contact} onChange={handleInputChange} className="input" placeholder="Your Contact Info" />
 							</div>
 
+							<p className="text-sm text-gray-500 mt-4">
+								We value your input.<br></br>
+								Please spread the word about DigiMess, so that MMCC can take up this feedback channel seriously.<br></br>
+								To view the students' submitted feedback <a href="https://docs.google.com/spreadsheets/d/1NeglaMeId-p5glsISIkmJwPa-JAQnI4HLRzdfi5lgIM/edit?gid=0#gid=0" className="text-primary underline" target="_blank">click here</a>.
+							</p>
 							{status === "error" && (
 								<div className="text-red-500 text-sm mt-2">Failed to submit feedback. Please try again later.</div>
 							)}

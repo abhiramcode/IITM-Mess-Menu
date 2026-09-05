@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Heart, MessageSquare, Menu, X } from "lucide-react";
+import FeedbackCoachmark from "./FeedbackCoachmark";
 
 const FloatingMenu = ({ 
     onOpenDonate, 
@@ -33,6 +34,9 @@ const FloatingMenu = ({
 
     return (
         <div ref={menuRef} className="fixed bottom-6 right-6 flex flex-col items-center gap-4 z-40">
+            
+            <FeedbackCoachmark isMenuExpanded={isExpanded} />
+            
             {/* Feedback Button */}
             {showFeedback && (
                 <div 
