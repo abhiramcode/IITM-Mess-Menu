@@ -1,5 +1,5 @@
 export const APP_NAME = "DigiMess";
-export const APP_VERSION = "v1.2.1";
+export const APP_VERSION = "v1.2.2";
 
 export const MENUS = [
 	{ value: "South_Veg", label: "South Indian (Veg)" },

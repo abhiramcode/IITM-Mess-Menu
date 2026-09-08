@@ -22217,5 +22217,167 @@
 
 	"overrides": {},
 
-	"eventOverrides": []
+	"eventOverrides": [
+		{
+			"eventName": "HAPPY MEAL",
+			"description": "Step away from the daily grind, gather with friends, and enjoy a special dinner 🎉",
+			"startDate": "2026-09-09",
+			"endDate": "2026-09-09",
+			"rules": [
+				{
+					"type": "override",
+					"onDate": "2026-09-09",
+					"targetMeal": "Dinner",
+					"items": {
+						"North_Non_Veg": [
+							"Drink: Blue/Lime Mojito",
+							"Soup: Veg Manchow Soup",
+							"Starter: *Crispy Chicken*",
+							"Snack: *French Fries*",
+							"Main Course: *Lucknowi Chicken Biryani*",
+							"Bread: Methi Chapathi",
+							"Dal Tadka",
+							"Veg Raitha",
+							"Papad",
+							"Pickle",
+							"Salad: Kachumber Salad",
+							"Dessert: *Kova Jamun*"
+						],
+						"South_Non_Veg": [
+							"Drink: Blue/Lime Mojito",
+							"Soup: Veg Manchow Soup",
+							"Starter: *Crispy Chicken*",
+							"Snack: *French Fries*",
+							"Main Course: *Andhra Chicken Biryani*",
+							"Bread: Methi Chapathi",
+							"Dal Fry",
+							"Veg Raitha",
+							"Papad",
+							"Pickle",
+							"Salad: Kachumber Salad",
+							"Dessert: *Kova Jamun*"
+						],
+						"Unified_Non_Veg": [
+							"Drink: Blue/Lime Mojito",
+							"Soup: Veg Manchow Soup",
+							"Starter: *Crispy Chicken*",
+							"Snack: *French Fries*",
+							"Main Course: *Hyderabadi Chicken Biryani*",
+							"Bread: Methi Chapathi",
+							"Dal Fry",
+							"Veg Raitha",
+							"Papad",
+							"Pickle",
+							"Salad: Kachumber Salad",
+							"Dessert: *Kova Jamun*"
+						],
+						"Protein_Non_Veg": [
+							"Drink: Blue/Lime Mojito",
+							"Soup: Veg Manchow Soup",
+							"Starter: *Crispy Chicken*",
+							"Snack: *French Fries*",
+							"Main Course: *Hyderabadi Chicken Biryani*",
+							"Bread: Methi Chapathi",
+							"Dal Fry",
+							"Veg Raitha",
+							"Papad",
+							"Pickle",
+							"Salad: Kachumber Salad",
+							"Dessert: *Kova Jamun*"
+						],
+						"North_Veg": [
+							"Drink: Blue/Lime Mojito",
+							"Soup: Veg Manchow Soup",
+							"Starter: *Crispy Paneer*",
+							"Snack: *French Fries*",
+							"Main Course: *Lucknowi Paneer Biryani*",
+							"Bread: Methi Chapathi",
+							"Dum Aloo Kashmiri",
+							"Dal Tadka",
+							"Veg/Boondi Raitha",
+							"Papad",
+							"Pickle",
+							"Salad: Kachumber Salad",
+							"Dessert: *Kova Jamun*"
+						],
+						"South_Veg": [
+							"Drink: Blue/Lime Mojito",
+							"Soup: Veg Manchow Soup",
+							"Starter: *Crispy Paneer*",
+							"Snack: *French Fries*",
+							"Main Course: *Paneer Dum Biryani*",
+							"Bread: Methi Chapathi",
+							"Gobi Masala",
+							"Dal Fry",
+							"Veg Raitha",
+							"Papad",
+							"Pickle",
+							"Salad: Kachumber Salad",
+							"Dessert: *Kova Jamun*"
+						],
+						"South_Pure_Veg": [
+							"Drink: Blue/Lime Mojito",
+							"Soup: Veg Manchow Soup",
+							"Starter: *Crispy Paneer*",
+							"Snack: *French Fries*",
+							"Main Course: *Paneer Dum Biryani*",
+							"Bread: Methi Chapathi",
+							"Gobi Masala",
+							"Dal Fry",
+							"Veg Raitha",
+							"Papad",
+							"Pickle",
+							"Salad: Kachumber Salad",
+							"Dessert: *Kova Jamun*"
+						],
+						"Unified_Veg": [
+							"Drink: Blue/Lime Mojito",
+							"Soup: Veg Manchow Soup",
+							"Starter: *Crispy Paneer*",
+							"Snack: *French Fries*",
+							"Main Course: *Paneer Dum Biryani*",
+							"Bread: Methi Chapathi",
+							"Gobi Masala",
+							"Dal Fry",
+							"Veg Raitha",
+							"Papad",
+							"Pickle",
+							"Salad: Kachumber Salad",
+							"Dessert: *Kova Jamun*"
+						],
+						"Protein_Veg": [
+							"Drink: Blue/Lime Mojito",
+							"Soup: Veg Manchow Soup",
+							"Starter: *Crispy Paneer*",
+							"Snack: *French Fries*",
+							"Main Course: *Paneer Dum Biryani*",
+							"Bread: Methi Chapathi",
+							"Gobi Masala",
+							"Dal Fry",
+							"Veg Raitha",
+							"Papad",
+							"Pickle",
+							"Salad: Kachumber Salad",
+							"Dessert: *Kova Jamun*"
+						],
+						"North_Veg_No_Onion_Garlic": [
+							"Drink: Blue/Lime Mojito",
+							"Soup: Veg Manchow Soup",
+							"Starter: *Crispy Paneer*",
+							"Snack: *French Fries*",
+							"Main Course: *Lucknowi Paneer Biryani*",
+							"Bread: Methi Chapathi",
+							"Dum Aloo Kashmiri",
+							"Dal Tadka",
+							"Veg/Boondi Raitha",
+							"Papad",
+							"Pickle",
+							"Salad: Kachumber Salad",
+							"Dessert: *Kova Jamun*"
+						]
+					}
+				}
+			]
+		}
+	]
 }
