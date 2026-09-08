@@ -131,26 +131,26 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 
 							<div className="form-group">
 								<label htmlFor="description" className="form-label">Description</label>
-								<textarea required id="description" name="description" value={formData.description} onChange={handleInputChange} minLength={20} maxLength={300} className="input min-h-[100px] resize-y" placeholder="Please provide details..."></textarea>
+								<textarea required id="description" name="description" value={formData.description} onChange={handleInputChange} minLength={20} maxLength={400} className="input min-h-[100px] resize-y" placeholder="Please provide details..."></textarea>
 								{/* <div className="text-sm text-gray-500 text-right"> */}
 								<div className="text-sm text-gray-500 flex justify-between">
 									{/* {formData.description.length} / 200 */}
 									<span className="text-red-500">
 									{formData.description.length > 0 && formData.description.length < 20 && "Minimum 20 characters required"}
 									</span>
-									<span>{formData.description.length} / 300</span>
+									<span>{formData.description.length} / 400</span>
 								</div>
 							</div>
 
 							<div className="form-group">
 								<label htmlFor="contact" className="form-label">Contact (Optional)</label>
-								<input type="text" id="contact" name="contact" value={formData.contact} onChange={handleInputChange} className="input" placeholder="Your Contact Info" />
+								<input type="text" id="contact" name="contact" value={formData.contact} onChange={handleInputChange} maxLength={40} className="input" placeholder="Your Contact Info" />
 							</div>
 
 							<p className="text-sm text-gray-500 mt-4">
 								We value your input.<br></br>
 								Please spread the word about DigiMess, so that MMCC can take up this feedback channel seriously.<br></br>
-								To view the students' submitted feedback <a href="https://docs.google.com/spreadsheets/d/1NeglaMeId-p5glsISIkmJwPa-JAQnI4HLRzdfi5lgIM/edit?gid=0#gid=0" className="text-primary underline" target="_blank">click here</a>.
+								To view the students' submitted feedback <a href="https://docs.google.com/spreadsheets/d/1NeglaMeId-p5glsISIkmJwPa-JAQnI4HLRzdfi5lgIM/edit?gid=0#gid=0" className="text-primary underline" target="_blank">click here</a>
 							</p>
 							{status === "error" && (
 								<div className="text-red-500 text-sm mt-2">Failed to submit feedback. Please try again later.</div>
