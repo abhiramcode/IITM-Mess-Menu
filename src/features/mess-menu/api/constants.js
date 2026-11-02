@@ -20,6 +20,27 @@ export const MENUS = [
 	{ value: "Protein_Non_Veg", label: "Protein (Non-Veg)" },
 ];
 
+export const CUISINE_DIET_MAPPING = {
+	South: {
+		Veg: "South_Veg",
+		Nonveg: "South_Non_Veg",
+		Pureveg: "South_Pure_Veg",
+	},
+	North: {
+		Veg: "North_Veg",
+		Nonveg: "North_Non_Veg",
+		Pureveg: "North_Veg_No_Onion_Garlic",
+	},
+	Unified: {
+		Veg: "Unified_Veg",
+		Nonveg: "Unified_Non_Veg",
+	},
+	Protein: {
+		Veg: "Protein_Veg",
+		Nonveg: "Protein_Non_Veg",
+	},
+};
+
 export const MESSES = [
 	{ value: "Neelkesh-Neelkanth", label: "Neelkesh-Neelkanth" },
 	{ value: "SRR-Annapurna-PureVeg", label: "SRR-Annapurna-PureVeg" },

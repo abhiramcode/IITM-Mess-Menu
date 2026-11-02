@@ -116,7 +116,7 @@ const FeedbackModal = ({ isOpen, onClose }) => {
 												<option value="Other">Other</option>
 											</>
 										)}
-										{(formData.type === "Mess-Issue" || formData.type === "Mess-Fix") && (
+										{(formData.type === "Mess-Issue" || formData.type === "Mess-Improve") && (
 											<>
 												{MESSES.map((mess) => (
 													<option key={mess.value} value={mess.value}>
