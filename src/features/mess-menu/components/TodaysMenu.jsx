@@ -396,6 +396,7 @@ const TodaysMenu = ({ onOpenSettings, onOpenFeedback }) => {
 								items={menu[mealTitle]}
 								commonItems={menu.common[mealTitle]}
 								status={isViewingToday ? mealStates[mealTitle] : "future"}
+								hasEventOverride={contextForDate?.eventMeals?.includes(mealTitle)}
 							/>
 						</div>
 					))}

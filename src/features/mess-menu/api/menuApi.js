@@ -105,6 +105,7 @@ export const getContextForDate = (date) => {
 
 	let eventName = null;
 	let eventDescription = null;
+	let eventMeals = [];
 
 	if (activeEvent) {
 		eventName = activeEvent.eventName;
@@ -114,6 +115,13 @@ export const getContextForDate = (date) => {
 		);
 
 		if (activeRules.length > 0) {
+			eventMeals = [
+				...new Set(
+					activeRules
+						.map((rule) => rule.targetMeal)
+						.filter((meal) => Boolean(meal)),
+				),
+			];
 			const baseMenuSnapshot = JSON.parse(JSON.stringify(menuContent));
 			const dayOfWeek = date.toLocaleString("en-US", { weekday: "long" });
 			let descriptions = [];
@@ -242,6 +250,7 @@ export const getContextForDate = (date) => {
 		versionId: versionId,
 		eventName: eventName,
 		eventDescription: eventDescription,
+		eventMeals: eventMeals,
 		menuContent: menuContent,
 		availableCategories: availableCategories,
 	};

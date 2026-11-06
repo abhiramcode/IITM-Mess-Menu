@@ -22390,6 +22390,34 @@
 			"startDate": "2026-10-03",
 			"endDate": "2026-10-11",
 			"rules": []
+		},
+		{
+			"eventName": "Diwali Happy Meal",
+			"description": "A Festive Feast of Joy & Togetherness 🎉",
+			"startDate": "2026-11-07",
+			"endDate": "2026-11-07",
+			"rules": [
+				{
+					"type": "override",
+					"onDate": "2026-11-07",
+					"targetMeal": "Dinner",
+					"items": {
+						"All_Categories": [
+							"Drink: Nannari Sharbat",
+							"Soup: Sweet Corn Vegetable Soup",
+							"Starters: Schezwan Chilli Potato",
+							"Snacks: Aloo Tikki Chaat",
+							"*Paneer Dum Biryani*",
+							"Butter Phulka",
+							"Veg Kolhapuri (Gravy)",
+							"Dal Makhani",
+							"Veg Raita",
+							"Dessert: *Jalebi/Kova Jamun*",
+							"Dessert: Ice Cream"
+						]
+					}
+				}
+			]
 		}
 	]
 }
