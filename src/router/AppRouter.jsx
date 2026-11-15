@@ -8,7 +8,6 @@ import HomePageSkeleton from "../features/mess-menu/components/skeletons/HomePag
 // The home page (mess menu) loads eagerly since it's the primary use case and needs to work offline.
 // Other pages are lazy-loaded to keep the initial bundle small.
 const HomePage = lazy(() => import("../pages/HomePage"));
-const EventsPage = lazy(() => import("../pages/EventsPage"));
 const FacilitiesPage = lazy(() => import("../pages/FacilitiesPage"));
 const NotFoundPage = lazy(() => import("../pages/NotFoundPage"));
 
@@ -38,8 +37,7 @@ const AppRouter = ({ onOpenSettings, onOpenFeedback }) => {
 							</Suspense>
 						}
 					/>
-					{/* Temporarily disabled while in progress */}
-					{/* <Route path="/events" element={<EventsPage />} /> */}
+					{/* Events page is not wired up yet. */}
 					<Route path="/facilities" element={<FacilitiesPage />} />
 					<Route path="*" element={<NotFoundPage />} />
 				</Route>

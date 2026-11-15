@@ -1,20 +1,26 @@
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/react";
-import { useState } from "react";
+import { lazy, Suspense, useState } from "react";
 import { ThemeProvider } from "./context/ThemeContext";
 import AppRouter from "./router/AppRouter";
 
 // Global Shared Components
-import SettingsModal from "./features/mess-menu/components/SettingsModal";
-import DonateModal from "./components/modals/DonateModal";
-import FeedbackModal from "./components/modals/FeedbackModal";
-import ConnectedAppsCarousel from "./components/navigation/ConnectedAppsCarousel";
 import FloatingMenu from "./components/navigation/FloatingMenu";
 import UpdatePrompt from "./components/ui/UpdatePrompt";
 import { MigrationApp } from "./features/mess-menu/components/MigrationApp";
 
+// Modals are loaded only when the user opens them. This keeps the menu data and
+// modal-only dependencies out of the initial app shell.
+const SettingsModal = lazy(
+	() => import("./features/mess-menu/components/SettingsModal"),
+);
+const DonateModal = lazy(() => import("./components/modals/DonateModal"));
+const FeedbackModal = lazy(() => import("./components/modals/FeedbackModal"));
+const ConnectedAppsCarousel = lazy(
+	() => import("./components/navigation/ConnectedAppsCarousel"),
+);
+
 export default function App() {
 	const [modalToShow, setModalToShow] = useState(null);
+	const [hasOpenedConnectedApps, setHasOpenedConnectedApps] = useState(false);
 
 	// Feature Flags for Floating Menu
 	const ENABLE_FLOATING_MENU = true;
@@ -25,7 +31,10 @@ export default function App() {
 	const openSettingsModal = () => setModalToShow("settings");
 	const openDonateModal = () => setModalToShow("donate");
 	const openFeedbackModal = () => setModalToShow("feedback");
-	const openConnectedAppsModal = () => setModalToShow("connectedApps");
+	const openConnectedAppsModal = () => {
+		setHasOpenedConnectedApps(true);
+		setModalToShow("connectedApps");
+	};
 	const closeAllModals = () => setModalToShow(null);
 
 	// --- The Domain Check ---
@@ -39,10 +48,23 @@ export default function App() {
 	return (
 		<ThemeProvider>
 			{/* Global Modals */}
-			{modalToShow === "settings" && <SettingsModal isOpen={true} onClose={closeAllModals} />}
-			{modalToShow === "donate" && <DonateModal isOpen={true} onClose={closeAllModals} />}
-			{modalToShow === "feedback" && <FeedbackModal isOpen={true} onClose={closeAllModals} />}
-			<ConnectedAppsCarousel isOpen={modalToShow === "connectedApps"} onClose={closeAllModals} />
+			<Suspense fallback={null}>
+				{modalToShow === "settings" && (
+					<SettingsModal isOpen={true} onClose={closeAllModals} />
+				)}
+				{modalToShow === "donate" && (
+					<DonateModal isOpen={true} onClose={closeAllModals} />
+				)}
+				{modalToShow === "feedback" && (
+					<FeedbackModal isOpen={true} onClose={closeAllModals} />
+				)}
+				{hasOpenedConnectedApps && (
+					<ConnectedAppsCarousel
+						isOpen={modalToShow === "connectedApps"}
+						onClose={closeAllModals}
+					/>
+				)}
+			</Suspense>
 
 			{/* Router Views */}
 			<AppRouter
@@ -62,8 +84,6 @@ export default function App() {
 			/>
 
 			<UpdatePrompt />
-			<Analytics />
-			<SpeedInsights />
 		</ThemeProvider>
 	);
 }

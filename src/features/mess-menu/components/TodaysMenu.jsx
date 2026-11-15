@@ -1,4 +1,11 @@
-import React, { useState, useEffect, useRef, useMemo } from "react";
+import React, {
+	lazy,
+	Suspense,
+	useState,
+	useEffect,
+	useRef,
+	useMemo,
+} from "react";
 import {
 	format,
 	addDays,
@@ -26,10 +33,12 @@ import {
 	getWeekForDate,
 	getMealStates,
 } from "../utils/weekManager";
-import CalendarModal from "./CalendarModal";
 import MealCard from "./MealCard";
 import TodaysMenuSkeleton from "./skeletons/TodaysMenuSkeleton";
 import EventDescription from "./EventDescription";
+
+// MUI/date-picker code is only needed after the user opens the calendar.
+const CalendarModal = lazy(() => import("./CalendarModal"));
 
 const CUISINES = [
 	{ key: "South", label: "South Indian", short: "S" },
@@ -88,6 +97,7 @@ const TodaysMenu = ({ onOpenSettings, onOpenFeedback }) => {
 
 	const [selectedDate, setSelectedDate] = useState(new Date());
 	const [isCalendarOpen, setIsCalendarOpen] = useState(false);
+	const [hasOpenedCalendar, setHasOpenedCalendar] = useState(false);
 	const [mealStates, setMealStates] = useState({});
 	const [viewingContext, setViewingContext] = useState({
 		week: "",
@@ -126,11 +136,21 @@ const TodaysMenu = ({ onOpenSettings, onOpenFeedback }) => {
 		}
 	};
 
+	const handleOpenCalendar = () => {
+		// Keep the modal mounted after the first open so its exit animation is
+		// preserved, but do not download its chunk until it is actually needed.
+		setHasOpenedCalendar(true);
+		setIsCalendarOpen(true);
+	};
+
+	// Resolve today's context once, then reuse it for both the header and the
+	// selected-date view when the user is viewing today.
+	const todayContext = useMemo(() => getContextForDate(new Date()), []);
 	const userPreferenceForToday = getPreferenceForCycle(
-		getContextForDate(new Date())?.cycleName
+		todayContext?.cycleName
 	);
 	const currentWeek = getCurrentWeek();
-	const currentCycle = getContextForDate(new Date())?.cycleName || "Loading...";
+	const currentCycle = todayContext?.cycleName || "Loading...";
 	const menuLabel =
 		MENUS.find((menu) => menu.value === userPreferenceForToday)?.label ||
 		"Not Set";
@@ -138,7 +158,10 @@ const TodaysMenu = ({ onOpenSettings, onOpenFeedback }) => {
 	const isViewingToday =
 		new Date().toDateString() === selectedDate.toDateString();
 
-	const contextForDate = getContextForDate(selectedDate);
+	const contextForDate = useMemo(() => {
+		if (isViewingToday) return todayContext;
+		return getContextForDate(selectedDate);
+	}, [isViewingToday, selectedDate, todayContext]);
 	const preferenceForSelectedCycle = getPreferenceForCycle(
 		contextForDate?.cycleName
 	);
@@ -248,7 +271,7 @@ const TodaysMenu = ({ onOpenSettings, onOpenFeedback }) => {
 				setMealStates({});
 			}
 
-			const context = getContextForDate(selectedDate);
+			const context = contextForDate;
 			if (!context) {
 				setError("No menu data found for the selected date.");
 				setMenu(null);
@@ -323,7 +346,7 @@ const TodaysMenu = ({ onOpenSettings, onOpenFeedback }) => {
 		};
 
 		fetchMenuForDate();
-	}, [selectedDate, isViewingToday, categoryToDisplay]);
+	}, [selectedDate, isViewingToday, categoryToDisplay, contextForDate]);
 
 	useEffect(() => {
 		if (loading || !isViewingToday || !menu) return;
@@ -417,12 +440,16 @@ const TodaysMenu = ({ onOpenSettings, onOpenFeedback }) => {
 			id="todays-menu"
 			className="w-full max-w-7xl mx-auto px-4 py-4 sm:py-8"
 		>
-			<CalendarModal
-				isOpen={isCalendarOpen}
-				onClose={() => setIsCalendarOpen(false)}
-				selectedDate={selectedDate}
-				onDateSelect={setSelectedDate}
-			/>
+			{hasOpenedCalendar && (
+				<Suspense fallback={null}>
+					<CalendarModal
+						isOpen={isCalendarOpen}
+						onClose={() => setIsCalendarOpen(false)}
+						selectedDate={selectedDate}
+						onDateSelect={setSelectedDate}
+					/>
+				</Suspense>
+			)}
 			<div className="mb-8">
 				<div className="flex flex-col sm:flex-row sm:items-center sm:gap-6 text-sm text-muted mb-1">
 					<div>
@@ -471,7 +498,7 @@ const TodaysMenu = ({ onOpenSettings, onOpenFeedback }) => {
 									<ChevronLeft size={16} />
 								</button>
 								<button
-									onClick={() => setIsCalendarOpen(true)}
+									onClick={handleOpenCalendar}
 									aria-label="Select date from calendar"
 									title="Open calendar"
 									className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center border border-border bg-input-bg text-muted hover:text-primary hover:border-primary/50 transition-colors focus-reset"
