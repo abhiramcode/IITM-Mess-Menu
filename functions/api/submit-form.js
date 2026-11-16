@@ -4,6 +4,17 @@ const jsonResponse = (body, status = 200) =>
 		headers: { "Content-Type": "application/json" },
 	});
 
+const fetchWithTimeout = async (url, options = {}, timeoutMs = 5000) => {
+	const controller = new AbortController();
+	const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+	try {
+		return await fetch(url, { ...options, signal: controller.signal });
+	} finally {
+		clearTimeout(timeoutId);
+	}
+};
+
 /**
  * Cloudflare Pages Function.
  *
@@ -11,22 +22,36 @@ const jsonResponse = (body, status = 200) =>
  * function: send to SplitForms and Google Sheets in parallel, then report
  * success if either configured destination succeeds.
  */
-export async function onRequest({ request, env }) {
+export async function onRequest({ request, env = {} }) {
 	if (request.method !== "POST") {
 		return jsonResponse({ message: "Method Not Allowed" }, 405);
 	}
 
-	const { type, subType, description, contact } = await request.json();
+	let payload;
+	try {
+		payload = await request.json();
+	} catch (error) {
+		console.error("Invalid feedback request body:", error);
+		return jsonResponse({ message: "Invalid JSON body" }, 400);
+	}
+
+	const { type, subType, description, contact } = payload;
 
 	try {
+		if (!env.SPLITFORMS_ACCESS_KEY) {
+			console.warn("SPLITFORMS_ACCESS_KEY is not configured.");
+		}
+		if (!env.GOOGLE_SHEETS_URL) {
+			console.warn("GOOGLE_SHEETS_URL is not configured.");
+		}
+
 		// 1. Submit to SplitForms
 		let splitformsPromise = Promise.resolve({ ok: false });
 		if (env.SPLITFORMS_ACCESS_KEY) {
 			const splitFormsUrl = `https://splitforms.com/api/submit`;
-			splitformsPromise = fetch(splitFormsUrl, {
+			splitformsPromise = fetchWithTimeout(splitFormsUrl, {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
-				signal: AbortSignal.timeout(5000),
 				body: JSON.stringify({
 					access_key: env.SPLITFORMS_ACCESS_KEY,
 					type,
@@ -51,29 +76,24 @@ export async function onRequest({ request, env }) {
 		// 2. Submit to Google Sheets
 		let googleSheetsPromise = Promise.resolve({ ok: false });
 		if (env.GOOGLE_SHEETS_URL) {
-			const dateObj = new Date();
+			const now = new Date();
+			// Cloudflare runs in UTC. Convert to IST without Intl/time-zone
+			// support so the Function is portable across runtime versions.
+			const ist = new Date(
+				now.getTime() + now.getTimezoneOffset() * 60000 + 330 * 60000,
+			);
 
 			// 1. Format the date to DD-MM-YYYY in IST
-			const formatter = new Intl.DateTimeFormat("en-GB", {
-				timeZone: "Asia/Kolkata",
-				day: "2-digit",
-				month: "2-digit",
-				year: "numeric",
-			});
-			const parts = formatter.formatToParts(dateObj);
-			const day = parts.find((p) => p.type === "day").value;
-			const month = parts.find((p) => p.type === "month").value;
-			const year = parts.find((p) => p.type === "year").value;
+			const day = String(ist.getDate()).padStart(2, "0");
+			const month = String(ist.getMonth() + 1).padStart(2, "0");
+			const year = ist.getFullYear();
 			const date = `${day}-${month}-${year}`;
 
 			// 2. Format the time to HH:mm:ss in 24-hour format in IST
-			const time = new Intl.DateTimeFormat("en-GB", {
-				timeZone: "Asia/Kolkata",
-				hour: "2-digit",
-				minute: "2-digit",
-				second: "2-digit",
-				hour12: false,
-			}).format(dateObj);
+			const hours = String(ist.getHours()).padStart(2, "0");
+			const minutes = String(ist.getMinutes()).padStart(2, "0");
+			const seconds = String(ist.getSeconds()).padStart(2, "0");
+			const time = `${hours}:${minutes}:${seconds}`;
 
 			// Cloudflare provides client metadata via request.cf and CF-Connecting-IP.
 			const ipAddress =
@@ -91,11 +111,10 @@ export async function onRequest({ request, env }) {
 			const userAgent = request.headers.get("user-agent") || "Unknown";
 			const toShow = true;
 
-			googleSheetsPromise = fetch(env.GOOGLE_SHEETS_URL, {
+			googleSheetsPromise = fetchWithTimeout(env.GOOGLE_SHEETS_URL, {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				redirect: "follow",
-				signal: AbortSignal.timeout(5000),
 				body: JSON.stringify({
 					date,
 					time,
