@@ -29,6 +29,7 @@
 			name="description"
 			content="The easiest way for IIT Madras students to check their mess menu without hunting for PDFs."
 		/>
+		<link rel="canonical" href="https://digi-mess.pages.dev" />
 
 		<!-- Core Favicons -->
 		<link rel="icon" href="/favicon.ico" sizes="any" />
@@ -51,9 +52,9 @@
 		/>
 		<meta
 			property="og:image"
-			content="https://iitm-mess-menu.vercel.app/social-card.png"
+			content="https://digi-mess.pages.dev/social-card.png"
 		/>
-		<meta property="og:url" content="https://iitm-mess-menu.vercel.app" />
+		<meta property="og:url" content="https://digi-mess.pages.dev" />
 		<meta property="og:type" content="website" />
 
 		<!-- Twitter Card -->
@@ -65,7 +66,7 @@
 		/>
 		<meta
 			name="twitter:image"
-			content="https://iitm-mess-menu.vercel.app/social-card.png"
+			content="https://digi-mess.pages.dev/social-card.png"
 		/>
 
 		<script src="/appName.js"></script>
@@ -74,6 +75,24 @@
 				if (window.APP_NAME) {
 					document.title = window.APP_NAME;
 				}
+			})();
+		</script>
+
+		<!-- Cloudflare Web Analytics (free, privacy-focused RUM + Web Vitals).
+		     Set VITE_CF_ANALYTICS_TOKEN in the Cloudflare Pages build environment. -->
+		<script>
+			(function () {
+				var token = "%VITE_CF_ANALYTICS_TOKEN%";
+				if (!token || token.indexOf("%VITE_") === 0) return;
+
+				var beacon = document.createElement("script");
+				beacon.defer = true;
+				beacon.src = "https://static.cloudflareinsights.com/beacon.min.js";
+				beacon.setAttribute(
+					"data-cf-beacon",
+					JSON.stringify({ token: token, spa: true }),
+				);
+				document.head.appendChild(beacon);
 			})();
 		</script>
 	</head>

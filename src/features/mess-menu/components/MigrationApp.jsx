@@ -3,7 +3,7 @@ import { useEffect } from "react";
 export const MigrationApp = () => {
   useEffect(() => {
     // --- The Migration Logic ---
-    const newDomain = 'digi-mess.vercel.app';
+    const newDomain = 'digi-mess.pages.dev';
     const newURL = `https://${newDomain}`;
     
     // Unregister all old service workers to break the cache trap.

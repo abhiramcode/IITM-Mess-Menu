@@ -37,11 +37,14 @@ export default function App() {
 	};
 	const closeAllModals = () => setModalToShow(null);
 
-	// --- The Domain Check ---
-	const oldHostname = "iitm-mess-menu.vercel.app";
+	// --- Legacy Vercel Domain Check ---
+	const legacyHostnames = [
+		"iitm-mess-menu.vercel.app",
+		"digi-mess.vercel.app",
+	];
 
-	// If the app is running on the old domain, render the special migration component.
-	if (window.location.hostname === oldHostname) {
+	// Redirect users who still arrive on an old Vercel deployment.
+	if (legacyHostnames.includes(window.location.hostname)) {
 		return <MigrationApp />;
 	}
 

@@ -43,3 +43,7 @@ lerna-debug.log*
 Thumbs.db
 .vercel
 .env
+
+# Cloudflare local state
+.wrangler/
+.dev.vars
