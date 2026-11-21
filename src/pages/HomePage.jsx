@@ -13,6 +13,7 @@ import {
 import MenuExplorer from "../features/mess-menu/components/MenuExplorer";
 import SetupModal from "../features/mess-menu/components/SetupModal";
 import TodaysMenu from "../features/mess-menu/components/TodaysMenu";
+import PwaInstallButton from "../components/ui/PwaInstallButton";
 
 /**
  * The Home Page — the main Mess Menu experience.
@@ -77,12 +78,12 @@ const HomePage = ({ onOpenSettings, onOpenFeedback }) => {
 			{(modalToShow === "initialSetup" ||
 				modalToShow === "newCyclePrompt" ||
 				modalToShow === "confirmNewCycle") && (
-				<SetupModal
-					onSave={handleOnboardingSave}
-					context={modalToShow}
-					prefilledPreference={prefilledPreference}
-				/>
-			)}
+					<SetupModal
+						onSave={handleOnboardingSave}
+						context={modalToShow}
+						prefilledPreference={prefilledPreference}
+					/>
+				)}
 
 			{isSetupComplete() ? (
 				<>
@@ -90,6 +91,7 @@ const HomePage = ({ onOpenSettings, onOpenFeedback }) => {
 						onOpenSettings={onOpenSettings}
 						onOpenFeedback={onOpenFeedback}
 					/>
+					<PwaInstallButton />
 					<div className="w-full max-w-7xl mx-auto px-4">
 						<div className="border-t border-border my-4 sm:my-10"></div>
 					</div>
